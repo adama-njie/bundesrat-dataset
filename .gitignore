@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Bundesrat Plenarprotokolle — repository hygiene
+#
+# This repo holds the pipeline code. It does not hold the data, the derived
+# outputs, or the paper. The packaged dataset is published separately on
+# Zenodo (doi:10.5281/zenodo.22086439); everything the pipeline writes is
+# regenerable from the source PDFs by re-running the stages.
+# ---------------------------------------------------------------------------
+
+# Prose. Only the README is published; everything else is working notes.
+*.md
+!README.md
+
+# Working documents
+*.docx
+*.xlsx
+*.doc
+*.xls
+
+# Operational shell scripts — cluster job submission, file transfer and
+# stage re-runs. Environment-specific, not part of the published pipeline.
+*.sh
+
+# Dot-directories: editor state, local tool configuration, virtualenvs,
+# caches. All machine-specific.
+.*/
+!.github/
+
+# Packaged dataset (br_03 output) — published on Zenodo, not in git.
+# speeches.csv alone is 159 MB, above GitHub's 100 MB per-file hard limit.
+bundesrat_dataset_v1/
+
+# HPC pipeline intermediates: per-session .txt / _speakers.csv files
+# from stages 00-02.
+outputs_from_hpc/
+
+# Derived outputs: audit reports, paper tables and figures.
+# Regenerate with br_05 / br_06 / br_07 / br_08.
+outputs/
+paper/
+
+# Source PDFs and any local corpus copies
+*.pdf
+pdfs/
+data/raw/
+
+# Bulk data formats
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+venv/
+env/
+ENV/
+
+# Logs, job output, scratch
+*.log
+slurm-*.out
+*.err
+*.tmp
+tmp/
+scratch/
+
+# Office lock files
+~$*
+.~lock.*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db

@@ -1,0 +1,1044 @@
+confidence,main_name,main_n,variant_name,variant_n,same_land,main_land,main_roles,variant_roles
+HIGH,Dr. Ehard,1257,Dr. Ehardt,2,True,Bayern,Berichterstatter|Präsident|Vizepräsident,Berichterstatter
+HIGH,Kopf,1224,Kopfi,1,True,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",
+HIGH,Kopf,1224,Koptf,1,True,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",
+HIGH,Koschnick,486,Koschnuick,1,True,Bremen,Amtierender Präsident|Präsident|Vizepräsident,
+HIGH,Dr. Albrecht,468,Dr. Alibrecht,2,True,Niedersachsen,"Amtierender Präsident|Ministerpräsident Hasselmann, Minister",Amtierender Präsident
+HIGH,Altmeier,371,Dr. Altmejer,2,True,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Vizepräsident
+HIGH,Altmeier,371,Dr. Altmfier,1,True,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,
+HIGH,Dr. Ringelmann,369,Dr. Bingelmann,3,True,Bayern,Berichterstatter,Berichterstatter
+HIGH,Dr. Ringelmann,369,Dr. Eingelmann,2,True,Bayern,Berichterstatter,
+HIGH,Renner,343,Eenner,1,True,Baden-Württemberg,Antragsteller|Berichterstatter|MitBerichterstatter,
+HIGH,Renner,343,Krenner,1,True,Baden-Württemberg,Antragsteller|Berichterstatter|MitBerichterstatter,
+HIGH,Dr. Filbinger,331,Dr. Filkbinger,1,True,Baden-Württemberg,"Berichterstatter|Ministerpräsident Adorno, Minister für Bund",
+HIGH,Dr. Klein,326,Dr. Kilein,1,True,Berlin,Berichterstatter|Senator für Bundesangelegenheiten Bremen|Se,Berichterstatter
+HIGH,Dr. Altmeier,290,Dr. Altmejer,2,True,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Vizepräsident
+HIGH,Dr. Altmeier,290,Dr. Altmfier,1,True,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",
+HIGH,Kubel,271,Kubei,1,True,Niedersachsen,Amtierender Präsident|Antragsteller|Berichterstatter|Ministe,
+HIGH,Kubel,271,Kubenl,1,True,Niedersachsen,Amtierender Präsident|Antragsteller|Berichterstatter|Ministe,
+HIGH,Kaisen,227,Xkaisen,1,True,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,
+HIGH,Dr. Spiecker,221,Dr. Spieker,3,True,Nordrhein-Westfalen,Berichterstatter,
+HIGH,Dr. Spiecker,221,Dr. Spieckfer,1,True,Nordrhein-Westfalen,Berichterstatter,
+HIGH,Erwin Teufel,218,Erwin Teufeil,1,True,Baden-Württemberg,Amtierender Präsident|Präsident|Vizepräsident,
+HIGH,Dr. Meyers,217,Dr. Mexers,1,True,Nordrhein-Westfalen,Berichterstatter|MitBerichterstatter|Präsident|Vizepräsident,Berichterstatter
+HIGH,Dr. Arno Walter,216,Dr. Armno Walter,2,True,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+HIGH,Dr. Zimmer,204,Dr. Zimmmer,1,True,Rheinland-Pfalz,Berichterstatter,Berichterstatter
+HIGH,Dr. Zimmer,204,Dr. Zummer,2,True,Rheinland-Pfalz,Berichterstatter,Berichterstatter
+HIGH,Oskar Lafontaine,191,Oskar Laforıtaine,1,True,Saarland,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,
+HIGH,Oskar Lafontaine,191,Oskar Laefontaine,1,True,Saarland,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,
+HIGH,Prof. Dr. Kurt Biedenkopf,181,Prof. Dr. Kurt Bledenkopf,1,True,Sachsen,Amtierender Präsident|Präsident|Vizepräsident,
+HIGH,Prof. Dr. Kurt Biedenkopf,181,Prof. Dr. Kurt Biedenkoöpf,1,True,Sachsen,Amtierender Präsident|Präsident|Vizepräsident,
+HIGH,Dr. Edmund Stoiber,174,Dr. Edmund Stoliber,1,True,Bayern,Präsident|Vizepräsident,
+HIGH,Wohleb,172,Wohlebs,1,True,,Vizepräsident,Vizepräsident
+HIGH,Wohleb,172,Wohlee,1,True,,Vizepräsident,
+HIGH,Wohleb,172,Wohler,1,True,,Vizepräsident,
+HIGH,Wohleb,172,Wohlesb,1,True,,Vizepräsident,Vizepräsident
+HIGH,Wohleb,172,Wohlfb,1,True,,Vizepräsident,Vizepräsident
+HIGH,Wohleb,172,Wohnleb,1,True,,Vizepräsident,Vizepräsident
+HIGH,Wohleb,172,Wonleb,2,True,,Vizepräsident,Vizepräsident
+HIGH,Momper,170,Mombper,1,True,Berlin,Präsident,
+HIGH,Hartmann,169,Nartmann,1,True,,Staaissekretär im Bundesministerium der Finanzen|Staatissekr,Staatssekretär im Bundesministerium der Finanzen
+HIGH,Dr. Weitz,166,Dr. Wettz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+HIGH,Dr. Weitz,166,Dr. Wetitz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+HIGH,Dr. Dudek,153,Dr. Dudfk,1,True,Hamburg,Antragsteller|Berichterstatter,Berichterstatter
+HIGH,Dr. Dudek,153,Dr. Dudeck,1,True,Hamburg,Antragsteller|Berichterstatter,
+HIGH,Dr. Troeger,137,Dr. Tboeger,1,True,Hessen,Antragsteller|Berichterstatter,
+HIGH,Dr. Troeger,137,Dr. Troegeb,1,True,Hessen,Antragsteller|Berichterstatter,Berichterstatter
+HIGH,Dr. Troeger,137,Dr. Trofger,1,True,Hessen,Antragsteller|Berichterstatter,Berichterstatter
+HIGH,Dr. Troeger,137,Dr. Trozeger,1,True,Hessen,Antragsteller|Berichterstatter,
+HIGH,van Heukelum,137,Van Neukelum,1,True,Bremen,Antragsteller|Berichterstatter|Senator für Arbeit Hamburg,
+HIGH,van Heukelum,137,van Heukelhum,1,True,Bremen,Antragsteller|Berichterstatter|Senator für Arbeit Hamburg,Berichterstatter
+HIGH,Späth,132,Späthn,1,True,Baden-Württemberg,Amtierender Präsident|Berichterstatter|Vizepräsident,
+HIGH,Hans Eichel,124,Hanıs Eichet,1,True,Hessen,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,
+HIGH,Brauer,123,Bravuer,1,True,Hamburg,Vizepräsident,
+HIGH,Brauer,123,Erauer,2,True,Hamburg,Vizepräsident,
+HIGH,Dr. Hilpert,115,Dr. Bilpert,2,True,Hessen,Berichterstatter|GeneralBerichterstatter,Berichterstatter
+HIGH,Dr. Hilpert,115,Dr. Hllpert,1,True,Hessen,Berichterstatter|GeneralBerichterstatter,
+HIGH,Dr. Hilpert,115,Dr. Hilpfert,1,True,Hessen,Berichterstatter|GeneralBerichterstatter,Berichterstatter
+HIGH,Neuenkirch,98,Nfuenkirch,1,True,Hamburg,Berichterstatter,Berichterstatter
+HIGH,Neuenkirch,98,Neuenkirchi,1,True,Hamburg,Berichterstatter,
+HIGH,Neuenkirch,98,Neuenkircih,1,True,Hamburg,Berichterstatter,Berichterstatter
+HIGH,Dr. Beyerle,96,Dr. Bexerle,1,True,,Berichterstatter,
+HIGH,Dr. Beyerle,96,Dr. Beyfrle,1,True,,Berichterstatter,Berichterstatter
+HIGH,Dr. Müller,90,Dr. Müiller,1,True,Baden-Württemberg,Berichterstatter|Vizepräsident,Berichterstatter
+HIGH,Dr. Müller,90,Dr. MülHer,1,True,Baden-Württemberg,Berichterstatter|Vizepräsident,
+HIGH,Zietsch,83,Zuetsch,1,True,Bayern,Berichterstatter|Minister|MitBerichterstatter,
+HIGH,Zietsch,83,Zietisch,1,True,Bayern,Berichterstatter|Minister|MitBerichterstatter,
+HIGH,Zietsch,83,Zietschn,1,True,Bayern,Berichterstatter|Minister|MitBerichterstatter,Berichterstatter
+HIGH,Schmidhuber,82,Schmldhuber,3,True,Bayern,Berichterstatter,Berichterstatter
+HIGH,Schmidhuber,82,Schmlidhuber,1,True,Bayern,Berichterstatter,
+HIGH,Dr. Seidel,77,Dr. Sfidel,1,True,Bayern,Berichterstatter|Vizepräsident,
+HIGH,Einert,77,Elinert,1,True,Nordrhein-Westfalen,,
+HIGH,Einert,77,Elnert,1,True,Nordrhein-Westfalen,,
+HIGH,Reinhold Bocklet,77,Reinhold Bockiet,2,True,Bayern,Amtierender Präsident|Berichterstatter,
+HIGH,Reinhold Bocklet,77,Reinhold Bockliet,2,True,Bayern,Amtierender Präsident|Berichterstatter,
+HIGH,Dr. Rüdiger,75,Dr. Aüdiger,1,True,Hessen,Amtierender Präsident|Berichterstatter,
+HIGH,Hemsath,74,Hemisath,1,True,Hessen,"Berichterstatter|Staatsminister für Arbeit, Volkswohlfahrt u",Berichterstatter
+HIGH,Dr. Auerbach,73,Dr. Auerbaci,1,True,Niedersachsen,Berichterstatter|Staatssekretär des Bundesministeriums für A,
+HIGH,Karin Schubert,69,Karlnı Schubert,1,True,Sachsen-Anhalt,Berichterstatterin|Schriftführerin,Schriftführerin
+HIGH,Schäffer,68,Schäfter,2,True,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Bundesminister der Finanzen
+HIGH,Matthöfer,68,Matihöfer,3,True,,Bundesminister der Finanzen|Bundesminister der Finarnzen|Bun,Bundesminister der Finanzen
+HIGH,Schäffer,68,Schäftfer,1,True,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Bundesminister der Finanzen
+HIGH,Wolfgang Clement,67,Wolhgang Clement,1,True,Nordrhein-Westfalen,Bundesminister für Wirtschaft und Arbeit|Vizepräsident,
+HIGH,Wertz,67,Dr. Wettz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+HIGH,Wertz,67,Werltz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+HIGH,Wolfgang Clement,67,Woilfgang Clement,1,True,Nordrhein-Westfalen,Bundesminister für Wirtschaft und Arbeit|Vizepräsident,
+HIGH,Wolfgang Clement,67,Wolfgang Cilement,1,True,Nordrhein-Westfalen,Bundesminister für Wirtschaft und Arbeit|Vizepräsident,
+HIGH,Wolfgang Clement,67,Wolfgang Cliement,1,True,Nordrhein-Westfalen,Bundesminister für Wirtschaft und Arbeit|Vizepräsident,
+HIGH,Farny,59,Dr. Farnxy,1,True,Baden-Württemberg,Berichterstatter|MitBerichterstatter,
+HIGH,Van Heukelum,56,Van Neukelum,1,True,Bremen,Berichterstatter,
+HIGH,Van Heukelum,56,van Heukelhum,1,True,Bremen,Berichterstatter,Berichterstatter
+HIGH,Meyer,51,Meyver,1,True,Rheinland-Pfalz,"Amtierender Präsident|Berichterstatter|Senator, Justizbehörd",
+HIGH,Dr. Vorndran,48,Dr. Vomndran,2,True,Bayern,Amtierender Präsident|Berichterstatter|Schriftführer,Schriftführer
+HIGH,Dr. Ankermüller,47,Dr. Akermüller,1,True,Bayern,Antragsteller|Berichterstatter,
+HIGH,Hasselmann,47,Hasseilmann,2,True,Niedersachsen,Amtierender Präsident|Berichterstatter,
+HIGH,Harmssen,46,Narmssen,1,True,Bremen,Antragsteller|Berichterstatter,
+HIGH,Harmssen,46,Harmssfen,1,True,Bremen,Antragsteller|Berichterstatter,
+HIGH,Adorno,45,Adorrno,1,True,Baden-Württemberg,Amtierender Präsident|Berichterstatter,
+HIGH,Dr. Nolting-Hauff,45,Dr. Nolting-Haufif,1,True,Bremen,Berichterstatter|MitBerichterstatter|Senator für die Finanze,Berichterstatter
+HIGH,Dr. Schlegelberger,42,Dr. Schiegelberger,1,True,Schleswig-Holstein,Berichterstatter,
+HIGH,Dr. Schlegelberger,42,Dr. Schliegelberger,1,True,Schleswig-Holstein,Berichterstatter,
+HIGH,Dr. Thomas Goppel,41,Dr. Thomas Goppei,2,True,Bayern,Amtierender Präsident|Berichterstatter|Staatsminister für La,
+HIGH,Dr. Thomas Goppel,41,Dr. Thomas Goppeil,2,True,Bayern,Amtierender Präsident|Berichterstatter|Staatsminister für La,
+HIGH,Dr. Süsterhenn,40,Dr. Sustfrhenn,1,True,Rheinland-Pfalz,Antragsteller|Berichterstatter,
+HIGH,Dr. Süsterhenn,40,Dr. Süsteryenn,1,True,Rheinland-Pfalz,Antragsteller|Berichterstatter,
+HIGH,Dr. Süsterhenn,40,Dr. Suüsterhenn,1,True,Rheinland-Pfalz,Antragsteller|Berichterstatter,
+HIGH,Ahrens,39,Ahnrens,1,True,Niedersachsen,Antragsteller|Berichterstatter,
+HIGH,Willms,39,Wililms,1,True,Bremen,"Berichterstatter|Senator für Bundesangelegenheiten Fröhlich,",
+HIGH,Willms,39,Wilims,1,True,Bremen,"Berichterstatter|Senator für Bundesangelegenheiten Fröhlich,",
+HIGH,Florian Gerster,38,Fiorian Gerster,1,True,Rheinland-Pfalz,Berichterstatter,
+HIGH,Florian Gerster,38,Florfan Gerster,1,True,Rheinland-Pfalz,Berichterstatter,
+HIGH,Florian Gerster,38,Fliorian Gerster,1,True,Rheinland-Pfalz,Berichterstatter,Berichterstatter
+HIGH,Becker,37,Eecker,1,True,Saarland,Amtierender Präsident|Berichterstatter,
+HIGH,Dr. Schaefer,36,Dr. Schaeier,1,True,Schleswig-Holstein,Berichterstatter,Berichterstatter
+HIGH,Dr. Schaefer,36,Dr. Schakfer,1,True,Schleswig-Holstein,Berichterstatter,Berichterstatter
+HIGH,Dr. Farny,36,Dr. Farnxy,1,True,Baden-Württemberg,Berichterstatter,
+HIGH,Gustav Wabro,36,Gustav Wapro,1,True,Baden-Württemberg,Berichterstatter|Staatssekretär im Ministerium für Bundes- u,
+HIGH,Dr. Strickrodt,36,Dr. Stbickrodt,1,True,Niedersachsen,Berichterstatter,
+HIGH,Dr. Strickrodt,36,Dr. Strickropt,1,True,Niedersachsen,Berichterstatter,
+HIGH,Dr. Lauffer,34,Dr. Laufter,1,True,Niedersachsen,Berichterstatter,
+HIGH,Dr. Lauffer,34,Dr. Lauftfer,1,True,Niedersachsen,Berichterstatter,
+HIGH,Dr. Apel,34,Dr. Apeil,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+HIGH,Zinnkann,33,Zinkann,1,True,Hessen,Antragsteller|Berichterstatter|Staatsminister des Innern Nie,
+HIGH,Dr. Heubl,32,Dr. HeubIl,1,True,Bayern,Berichterstatter|Staatsminister für Bundesangelegenheiten (z,
+HIGH,Dr. Heubl,32,Dr. Heubil,1,True,Bayern,Berichterstatter|Staatsminister für Bundesangelegenheiten (z,
+HIGH,Wildermuth,32,Wildermutw,1,True,,Bundesminister für Wohnungsbau|Bundesminister für Wohnungswe,Bundesminister für Wohnungsbau
+HIGH,Dr. Theodor Waigel,30,Dr. Theodor Wailgel,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+HIGH,Dr. Theodor Waigel,30,Dr. Thsodor Waigel,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+HIGH,Bleek,30,Aleek,1,True,,Staatssekretär im Bundesministerium|Staatssekretär im Bundes,Staatssekretär im Bundesministerium des Innern
+HIGH,Bleek,30,Bieek,1,True,,Staatssekretär im Bundesministerium|Staatssekretär im Bundes,Staatssekretär im Bundesministerium des Innern
+HIGH,Dr. Edmund Stolber,29,Dr. Edmund Stoliber,1,True,Bayern,Präsident,
+HIGH,Dr. Dr. Gereke,28,Dr. Dr. Gerecke,1,True,Niedersachsen,Berichterstatter,Berichterstatter
+HIGH,Dr. Dr. Gereke,28,Dr. Dr. Gerekre,1,True,Niedersachsen,Berichterstatter,Berichterstatter
+HIGH,Dr. Dr. Gereke,28,Dr. Dr. Gerere,1,True,Niedersachsen,Berichterstatter,
+HIGH,Dr. Dr. Gereke,28,Dr. Dr. Gerexe,1,True,Niedersachsen,Berichterstatter,
+HIGH,Gerhard Glogowski,28,Gerhard Gilogowski,1,True,Niedersachsen,Vizepräsident,
+HIGH,Prof. Ursula Männle,28,Prof. Ursula Männile,1,True,Bayern,Berichterstatterin,
+HIGH,Dr. Geissler,26,Dr. Gelssler,1,True,Rheinland-Pfalz,Berichterstatter,
+HIGH,Dr. Geissler,26,Dr. Geisslier,1,True,Rheinland-Pfalz,Berichterstatter,
+HIGH,Ritter Von Lex,26,Ritier Von Lex,1,True,,Staatssekretär . im Bundesministerium des Innern|Staatssekre,Staatssekretär im Bundesministerium des Innern
+HIGH,Ritter Von Lex,26,Rititer von Lex,1,True,,Staatssekretär . im Bundesministerium des Innern|Staatssekre,Staatssekretär im Bundesministerium des Innern
+HIGH,Stooss,25,Stoocss,1,True,,Berichterstatter|Minister,Berichterstatter
+HIGH,Dr. Veit,25,Dr. Veith,1,True,Baden-Württemberg,Berichterstatter,
+HIGH,Stooss,25,Stoos,1,True,,Berichterstatter|Minister,
+HIGH,Stooss,25,Stoss,1,True,,Berichterstatter|Minister,
+HIGH,Ritter von Lex,25,Ritier Von Lex,1,True,,Staatssekretär im Bun- -- desministerium des Innern . Beschl,Staatssekretär im Bundesministerium des Innern
+HIGH,Ritter von Lex,25,Rititer von Lex,1,True,,Staatssekretär im Bun- -- desministerium des Innern . Beschl,Staatssekretär im Bundesministerium des Innern
+HIGH,Ehlers,24,Ehlfrs,1,True,Bremen,"Berichterstatter|Senator für Inneres van Heukelum, Senator f",Berichterstatter
+HIGH,Pütz,23,Pülz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+HIGH,Dr. Wickimayr,23,Dr. Wickilmayr,1,True,Saarland,Berichterstatter,
+HIGH,Dr. Schäfer,22,Dr. Schakfer,1,True,Schleswig-Holstein,Berichterstatter|Staaissekretär im Bundesministerium des Inn,Berichterstatter
+HIGH,Halbfell,21,Halbfelt,1,True,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Dr. Ehard,1257,Dr. Ehand,1,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Enard,5,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Fhard,1,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. EFhard,1,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Eharpd,1,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Ehhard,2,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Ehnard,3,False,Bayern,Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Ehard,1257,Dr. Erhard,16,True,Bayern,Berichterstatter|Präsident|Vizepräsident,Bundeskanzler|Bundesminister für Wirischaft|Bundesminister f
+LOW-role-conflict,Kopf,1224,Hopf,2,False,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",Staatssekretär im Bundesministerium für Verteidigung|Staatss
+REVIEW,Kopf,1224,Kofpf,1,False,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",Präsident
+REVIEW,Kopf,1224,Konf,1,False,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",Präsident
+REVIEW,Kopf,1224,Xopf,1,False,Niedersachsen,"Ministerpräsident|Ministerpräsident Ahrens, Minister für Wir",Vizepräsident
+REVIEW,Arnold,576,Arnhold,1,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Vizepräsident
+REVIEW,Arnold,576,Arnolmd,2,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Vizepräsident
+REVIEW,Arnold,576,Arnolp,1,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Arnold,576,Arnolpd,1,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Arnold,576,Arnöold,1,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Arnold,576,Arwold,1,False,Nordrhein-Westfalen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Vogel,554,Dr. Vogef,1,False,Rheinland-Pfalz,"Bundesminister der Justiz|Ministerpräsidentin Simonis, Staat",Präsident
+REVIEW,Dr. Vogel,554,Dr. Vogei,3,False,Rheinland-Pfalz,"Bundesminister der Justiz|Ministerpräsidentin Simonis, Staat",Bundesminister der Justiz|Präsident
+REVIEW,Dr. Vogel,554,Dr. Voget,1,False,Rheinland-Pfalz,"Bundesminister der Justiz|Ministerpräsidentin Simonis, Staat",Präsident
+LOW-role-conflict,Dr. Vogel,554,Voget,1,False,Rheinland-Pfalz,"Bundesminister der Justiz|Ministerpräsidentin Simonis, Staat",Staatsminister beim Bundeskanzler
+REVIEW,Dr. Vogel,554,Dr. Vogetl,1,False,Rheinland-Pfalz,"Bundesminister der Justiz|Ministerpräsidentin Simonis, Staat",Präsident
+REVIEW,Koschnick,486,Koschhick,1,False,Bremen,Amtierender Präsident|Präsident|Vizepräsident,Vizepräsident
+REVIEW,Koschnick,486,Koschnik,4,True,Bremen,Amtierender Präsident|Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Dr. Albrecht,468,Dr. Aibrecht,9,False,Niedersachsen,"Amtierender Präsident|Ministerpräsident Hasselmann, Minister",Amtierender Präsident|Präsident|Vizepräsident
+REVIEW,Dr. Maier,425,Dr. Mader,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Maifr,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Majer,4,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Maler,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Mater,15,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Mafier,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Maijer,19,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Mailer,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Maiter,2,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Majier,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Maier,425,Dr. Matier,1,False,Baden-Württemberg,Präsident|präsident,Präsident
+REVIEW,Dr. Röder,406,Dr. Röäder,1,False,Saarland,Amtierender Präsident|Berichterstatter|Präsident|Vizepräside,Vizepräsident
+REVIEW,Altmeier,371,Altmeter,2,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident|Vizepräsident
+REVIEW,Altmeier,371,Alymeier,1,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident
+REVIEW,Altmeier,371,Dr. Alimeier,1,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident
+REVIEW,Altmeier,371,Dr. Altmaier,3,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident|Vizepräsident
+REVIEW,Altmeier,371,Dr. Altmeler,6,True,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident
+REVIEW,Altmeier,371,Dr. Altmeter,1,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Vizepräsident
+REVIEW,Altmeier,371,Altmeijer,2,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Vizepräsident
+REVIEW,Altmeier,371,Altmetier,1,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Vizepräsident
+REVIEW,Altmeier,371,Alutmeier,1,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident
+REVIEW,Altmeier,371,Dr. Altmeijer,3,False,Rheinland-Pfalz,Antragsteller|Berichterstatter|Ministerpräsident Becher‚ Min,Präsident|Vizepräsident
+REVIEW,Renner,343,Benner,2,False,Baden-Württemberg,Antragsteller|Berichterstatter|MitBerichterstatter,
+LOW-role-conflict,Renner,343,Renger,5,False,Baden-Württemberg,Antragsteller|Berichterstatter|MitBerichterstatter,Präsident
+REVIEW,Renner,343,Rennfr,2,False,Baden-Württemberg,Antragsteller|Berichterstatter|MitBerichterstatter,
+REVIEW,Dr. Henning Scherf,335,Dr. Hennlng Scherf,1,False,Bremen,Amtierender Präsident|Berichterstatter|Vizepräsident,Vizepräsident
+REVIEW,Dr. Filbinger,331,Dr. Fülbinger,2,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Adorno, Minister für Bund",Präsident|Vizepräsident
+REVIEW,Dr. Filbinger,331,Dr. Tilbinger,1,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Adorno, Minister für Bund",Präsident
+REVIEW,Dr. Filbinger,331,Dr. Filbingqer,1,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Adorno, Minister für Bund",Präsident
+REVIEW,Dr. Filbinger,331,Dr. Filbinuger,1,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Adorno, Minister für Bund",Präsident
+REVIEW,Dr. Stoltenberg,305,Dr. Stoitenberg,6,True,Schleswig-Holstein,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,Bundesminister der Finanzen|Präsident|Vizepräsident
+REVIEW,Dr. Stoltenberg,305,Dr. Stoltenherg,1,False,Schleswig-Holstein,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,Präsident
+REVIEW,Dr. Stoltenberg,305,Sioltenberg,1,False,Schleswig-Holstein,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,Präsident
+REVIEW,Dr. Zinn,299,Dr. Zian,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Dr. Zienn,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Dr. Zinmn,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Dr. Zinz,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Dr. Ziun,2,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Dr. Ziunn,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",Präsident
+REVIEW,Dr. Zinn,299,Prof. Dr. Sinn,1,False,Hessen,"Berichterstatter|Ministerpräsident Dr. Lauritzen, Minister d",
+REVIEW,Dr. Altmeier,290,Altmeter,2,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident|Vizepräsident
+REVIEW,Dr. Altmeier,290,Alymeier,1,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident
+REVIEW,Dr. Altmeier,290,Dr. Alimeier,1,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident
+REVIEW,Dr. Altmeier,290,Dr. Altmaier,3,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident|Vizepräsident
+REVIEW,Dr. Altmeier,290,Dr. Altmeler,6,True,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident
+REVIEW,Dr. Altmeier,290,Dr. Altmeter,1,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Vizepräsident
+REVIEW,Dr. Altmeier,290,Altmeijer,2,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Vizepräsident
+REVIEW,Dr. Altmeier,290,Altmetier,1,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Vizepräsident
+REVIEW,Dr. Altmeier,290,Alutmeier,1,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident
+REVIEW,Dr. Altmeier,290,Dr. Altmeijer,3,False,Rheinland-Pfalz,"Berichterstatter|Ministerpräsident Wolters, Minister des Inn",Präsident|Vizepräsident
+REVIEW,Klaus Wedemeier,251,Kiaus Wedemeier,5,False,Bremen,Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Klaus Wedemeier,251,Klaus Wecemeier,1,False,Bremen,Präsident|Vizepräsident,Präsident
+REVIEW,Klaus Wedemeier,251,Klaus Wedemeler,10,True,Bremen,Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Klaus Wedemeier,251,Kilaus Wedemeier,2,False,Bremen,Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Sieveking,251,Dr. Sievering,7,False,Hamburg,Präsident,Präsident
+REVIEW,Dr. Sieveking,251,Dr. Steveking,3,False,Hamburg,Präsident,Präsident
+REVIEW,Dr. Henning Voscherau,251,Dr. Henning Vorscherau,3,False,Hamburg,Amtierender Präsident|Berichterstatter|Präsident|Vizepräside,Vizepräsident
+REVIEW,Dr. Henning Voscherau,251,Dr. Hennig Voscherau,2,False,Hamburg,Amtierender Präsident|Berichterstatter|Präsident|Vizepräside,Amtierender Präsident|Vizepräsident
+REVIEW,Dr. Sieveking,251,Dr. Sieverking,1,False,Hamburg,Präsident,Präsident
+REVIEW,Dr. Sieveking,251,Dr. Sievexking,1,False,Hamburg,Präsident,Präsident
+REVIEW,Dr. Gebhard Müller,237,Dr. Gebbhard Müller,1,False,Baden-Württemberg,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Dr. Gebhard Müller,237,Dr. Gebtard Müller,1,False,Baden-Württemberg,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Dr. Gebhard Müller,237,Dr. Gerhard Müller,1,False,Baden-Württemberg,Präsident|Vizepräsident,
+REVIEW,Dr. Gebhard Müller,237,Dr. Gbhard Müller,1,False,Baden-Württemberg,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Klose,234,Kiose,31,True,Hamburg,Präsident,Präsident
+REVIEW,Klose,234,Kluse,1,False,Hamburg,Präsident,Präsident
+REVIEW,Klose,234,Kliose,6,True,Hamburg,Präsident,Präsident
+REVIEW,Kaisen,227,Kailsen,1,False,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+LOW-role-conflict,Kaisen,227,Kaiser,1,False,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Bundesminister für gesamtdeutsche Angelegenheiten
+REVIEW,Kaisen,227,Kalisen,6,True,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Kaisen,227,Kalsen,14,True,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Kaisen,227,Kaxisen,1,False,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Vizepräsident
+REVIEW,Kaisen,227,Kaysen,1,False,Bremen,Antragsteller|Berichterstatter|Präsident|Vizepräsident,Vizepräsident
+REVIEW,Erwin Teufel,218,Erwin Teufei,1,False,Baden-Württemberg,Amtierender Präsident|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Meyers,217,Dr. Meyefs,1,False,Nordrhein-Westfalen,Berichterstatter|MitBerichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Meyers,217,Dr. Meyvers,1,False,Nordrhein-Westfalen,Berichterstatter|MitBerichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Meyers,217,Dr. Méyers,1,False,Nordrhein-Westfalen,Berichterstatter|MitBerichterstatter|Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Meyers,217,Meyer,51,False,Nordrhein-Westfalen,Berichterstatter|MitBerichterstatter|Präsident|Vizepräsident,"Amtierender Präsident|Berichterstatter|Senator, Justizbehörd"
+REVIEW,Dr. Arno Walter,216,Dr. Armo Walter,5,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Arno Walter,216,Dr. Arno Waiter,6,True,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident|Berichterstatter
+REVIEW,Dr. Arno Walter,216,Dr. Aro Walter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Arno Walter,216,Dr. Arno Wailter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Engholm,209,Enghoim,30,True,Schleswig-Holstein,Bundesminister für Bildung und Wissenschaft|Parlamentarische,Präsident|Vizepräsident
+REVIEW,Engholm,209,Engholim,11,False,Schleswig-Holstein,Bundesminister für Bildung und Wissenschaft|Parlamentarische,Bundesminister für Bildung und Wissenschaft|Präsident|Vizepr
+REVIEW,Börner,208,Bömner,2,False,Hessen,"Amtierender Präsident|Ministerpräsident Frau Dr. Rüdiger, Mi",Amtierender Präsident|Präsident
+REVIEW,Börner,208,Börmner,1,False,Hessen,"Amtierender Präsident|Ministerpräsident Frau Dr. Rüdiger, Mi",Präsident
+LOW-role-conflict,Börner,208,Dr. Wörner,3,False,Hessen,"Amtierender Präsident|Ministerpräsident Frau Dr. Rüdiger, Mi",Bundesminister der Verteidigung
+REVIEW,Börner,208,Sörner,2,False,Hessen,"Amtierender Präsident|Ministerpräsident Frau Dr. Rüdiger, Mi",Präsident
+LOW-role-conflict,Dr. Zimmer,204,Wimmer,1,False,Rheinland-Pfalz,Berichterstatter,Parl. Staatssekretär beim Bundesminister der Verteidigung
+LOW-role-conflict,Zeyer,204,Meyer,51,False,Saarland,Präsident|Vizepräsident,"Amtierender Präsident|Berichterstatter|Senator, Justizbehörd"
+LOW-role-conflict,Zeyer,204,Weyer,28,False,Saarland,Präsident|Vizepräsident,Berichterstatter
+REVIEW,Matthias Platzeck,187,Mattias Platzeck,1,False,Brandenburg,Präsident|Vizepräsident,Präsident
+LOW-role-conflict,Lübke,183,Lücke,14,False,Nordrhein-Westfalen,"Berichterstatter|Bundesminister für Ernährung, Landwirtschaf",Bundesminister des Innern|Bundesminister für Wohnungsbau|Bun
+REVIEW,Dr. Edmund Stoiber,174,Dr. Edmund Stolber,29,True,Bayern,Präsident|Vizepräsident,Präsident
+LOW-role-conflict,Wohleb,172,Wonhleb,1,True,,Vizepräsident,Antragsteller
+REVIEW,Schütz,171,Dr. Schultz,1,False,Berlin,Amtierender Präsident|Berichterstatter|Präsident|Regierender,
+REVIEW,Schütz,171,Schulz,16,False,Berlin,Amtierender Präsident|Berichterstatter|Präsident|Regierender,Amtierender Präsident|Vizepräsident
+REVIEW,Schütz,171,Schüfz,2,False,Berlin,Amtierender Präsident|Berichterstatter|Präsident|Regierender,Präsident|Vizepräsident
+REVIEW,Schütz,171,Schüiz,2,False,Berlin,Amtierender Präsident|Berichterstatter|Präsident|Regierender,Amtierender Präsident|Präsident
+REVIEW,Schütz,171,Schültz,2,False,Berlin,Amtierender Präsident|Berichterstatter|Präsident|Regierender,Präsident|Vizepräsident
+REVIEW,Dr. Weitz,166,Reitz,9,False,Nordrhein-Westfalen,Berichterstatter,Berichterstatter|Minister
+REVIEW,Dr. Weitz,166,Wertz,67,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Roland Koch,151,Rotand Koch,1,False,Hessen,Amtierender Präsident|Berichterstatter|Präsident|Vizepräside,Präsident
+REVIEW,Dr. h. c. Strauß,147,Dr. h. c. StraußB,1,False,Bayern,Präsident,Präsident
+REVIEW,Kiesinger,140,Dr. Kielinger,2,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Dr. Farny, Minister für B",Berichterstatter
+REVIEW,Kiesinger,140,Kiésinger,1,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Dr. Farny, Minister für B",Präsident
+REVIEW,Kiesinger,140,Kliesinger,1,False,Baden-Württemberg,"Berichterstatter|Ministerpräsident Dr. Farny, Minister für B",Vizepräsident
+REVIEW,Dr. Berndt Seite,139,Dr. Bemndt Seite,2,False,Mecklenburg-Vorpommern,"Amtierender Präsident|Ministerpräsident Rudolf Geil, Innenmi",Vizepräsident
+REVIEW,Dr. Berndt Seite,139,Dr. Berndt Selte,1,False,Mecklenburg-Vorpommern,"Amtierender Präsident|Ministerpräsident Rudolf Geil, Innenmi",Amtierender Präsident
+REVIEW,Dr. Berndt Seite,139,Dr. Bernd Seite,1,False,Mecklenburg-Vorpommern,"Amtierender Präsident|Ministerpräsident Rudolf Geil, Innenmi",Präsident
+REVIEW,Gerhard Schröder,137,Gerhard Schöder,1,False,Niedersachsen,"Bundeskanzler|Ministerpräsident Heidrun Alm-Merk, Justizmini",Präsident
+REVIEW,Hans Eichel,124,Hans Elchel,1,False,Hessen,Amtierender Präsident|Berichterstatter|Bundesminister der Fi,Präsident
+LOW-role-conflict,Brauer,123,Bauer,8,False,Hamburg,Vizepräsident,Berichterstatter
+REVIEW,Wolters,117,Weolters,1,False,Bremen,Berichterstatter|MitBerichterstatter|Senator|Senator HKambur,"Staatsminister des Innern und Sozialminister Westenberger, S"
+REVIEW,Wolters,117,Wolhters,1,False,Bremen,Berichterstatter|MitBerichterstatter|Senator|Senator HKambur,Berichterstatter
+REVIEW,Dr. Frank,103,Dr. Franke,3,False,Baden-Württemberg,Berichterstatter,
+REVIEW,Dr. Frank,103,Franke,23,False,Baden-Württemberg,Berichterstatter,Berichterstatter|Bundesminister für innerdeutsche Beziehunge
+LOW-role-conflict,Dr. Weber,93,Leber,13,False,Hamburg,Berichterstatter|Bundesminister der Jusitz|Bundesminister de,Bundesminister für Verkehr|Bundesminister für Verkehr . Jaum
+REVIEW,Dr. Weber,93,Weyer,28,False,Hamburg,Berichterstatter|Bundesminister der Jusitz|Bundesminister de,Berichterstatter
+LOW-role-conflict,Dr. Müller,90,Dr. Möller,2,False,Baden-Württemberg,Berichterstatter|Vizepräsident,Bundesminister der Finanzen
+REVIEW,Dr. Schiller,83,Dr. Schieler,1,False,Hamburg,Berichterstatter|Bundesminister fur Wirtschaft . Beschluß|Bu,
+REVIEW,Dr. Florian Herrmann,81,Dr. Florian Hermann,1,False,Bayern,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Einert,77,Reinert,1,False,Nordrhein-Westfalen,,
+REVIEW,Dr. Seidel,77,Dr. Seidl,4,True,Bayern,Berichterstatter|Vizepräsident,
+REVIEW,Dr. Seidel,77,Seidl,1,False,Bayern,Berichterstatter|Vizepräsident,Berichterstatter
+REVIEW,Dr. Amo Walter,73,Dr. Amo Waiter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Berichterstatter
+REVIEW,Dr. Amo Walter,73,Dr. Amo Watter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Amo Walter,73,Dr. Aro Walter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Auerbach,73,Lauerbach,1,False,Niedersachsen,Berichterstatter|Staatssekretär des Bundesministeriums für A,Berichterstatter
+REVIEW,Dr. Amo Walter,73,Dr. Amo Walther,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Amo Walter,73,Dr. Armo Walter,5,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+LOW-role-conflict,Schäffer,68,Dr. Schaefer,36,False,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Berichterstatter
+LOW-role-conflict,Schäffer,68,Dr. Schakfer,1,False,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Berichterstatter
+LOW-role-conflict,Schäffer,68,Dr. Schäfer,22,False,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Berichterstatter|Staaissekretär im Bundesministerium des Inn
+LOW-role-conflict,Schäffer,68,Prof. Dr. Schäfer,1,True,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Staatssekretär im Bundesministerium für Angelegenheiten des 
+LOW-role-conflict,Schäffer,68,Schäfer,12,False,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Berichterstatter|Staatsminister im Auswärtigen Amt
+REVIEW,Schäffer,68,Schaäffer,9,True,,Bundesfinanzminister|Bundesfinanzminister . Beschlußfassung|,Bundesfinanzminister|Bundesminister der Finanzen|Bundesminis
+LOW-role-conflict,Matthöfer,68,Mattihöfer,1,True,,Bundesminister der Finanzen|Bundesminister der Finarnzen|Bun,Bundesminister der Finanzer
+LOW-role-conflict,Wertz,67,Dr. Hertz,3,False,Nordrhein-Westfalen,Berichterstatter,Senator f1'ir Wirtschaft und Kredit Bremen|Senator für Wirts
+REVIEW,Wertz,67,Werlz,1,False,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Alfred Gomolka,61,Dr. Ailfred Gomolka,2,False,Mecklenburg-Vorpommern,Amtierender Präsident|Präsident,Amtierender Präsident|Präsident
+REVIEW,Dr. Alfred Gomolka,61,Dr. Alfred Gomoika,5,False,Mecklenburg-Vorpommern,Amtierender Präsident|Präsident,Amtierender Präsident|Präsident
+REVIEW,Dr. Willfried Maier,61,Dr. Willfnied Maier,1,False,Hamburg,"Amtierender Präsident|Senator, Präses der Stadtentwicklungsb","Senator, Präses der Stadtentwicklungsbehörde und Bevollmächt"
+REVIEW,Dr. Willfried Maier,61,Dr. Willfried Malier,1,False,Hamburg,"Amtierender Präsident|Senator, Präses der Stadtentwicklungsb",
+REVIEW,Zinn,61,Dr. Zian,1,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Dr. Zienn,1,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Dr. Zinmn,1,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Dr. Zinz,1,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Dr. Ziun,2,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Dr. Ziunn,1,False,Hessen,Präsident,Präsident
+REVIEW,Zinn,61,Prof. Dr. Sinn,1,False,Hessen,Präsident,
+REVIEW,Dr. Alfred Gomolka,61,Dr. Afred Gomolka,2,False,Mecklenburg-Vorpommern,Amtierender Präsident|Präsident,Präsident
+LOW-role-conflict,Dr. Haas,60,Dr. Haak,22,False,Berlin,Berichterstatter|MitBerichterstatter|Staatsminister der Just,Schriftführer
+REVIEW,Dr. Haas,60,Haak,1,False,Berlin,Berichterstatter|MitBerichterstatter|Staatsminister der Just,
+REVIEW,Prof. Dr. Weichmann,55,Prof. Dr. Welchmann,7,True,Hamburg,Präsident,Präsident
+REVIEW,Prof. Dr. Weichmann,55,Prof. Dr. Weilchmann,5,False,Hamburg,Präsident,Präsident
+REVIEW,Apel,53,Apei,17,True,Hamburg,"Antragsteller|Berichterstatter|Senator|Senator, Behörde für ",Berichterstatter
+REVIEW,Apel,53,Apeil,4,True,Hamburg,"Antragsteller|Berichterstatter|Senator|Senator, Behörde für ",
+LOW-role-conflict,Apel,53,Dr. Apeil,1,False,Hamburg,"Antragsteller|Berichterstatter|Senator|Senator, Behörde für ",Bundesminister der Finanzen
+REVIEW,Apel,53,Dr. Apelt,6,False,Hamburg,"Antragsteller|Berichterstatter|Senator|Senator, Behörde für ",Berichterstatter
+LOW-role-conflict,Dr. Blüm,53,Baum,16,False,Berlin,Bundesminister für Arbeit und Sozialordnung|Bundesminister f,Bundesminister des Innern|Parl. Staatssekretär beim Bundesmi
+REVIEW,Dr. Blüm,53,Dr. Bliüm,1,False,Berlin,Bundesminister für Arbeit und Sozialordnung|Bundesminister f,Bundesminister für Arbeit und Sozialordnung
+REVIEW,Meyer,51,Weyer,28,False,Rheinland-Pfalz,"Amtierender Präsident|Berichterstatter|Senator, Justizbehörd",Berichterstatter
+REVIEW,Dr. Goppel,48,GCoppel,1,False,Bayern,"Amtierender Präsident|Ministerpräsident Dr. Heubl, Staatsmin",Vizepräsident
+REVIEW,Hasselmann,47,Hasseimann,7,True,Niedersachsen,Amtierender Präsident|Berichterstatter,Berichterstatter
+REVIEW,Dr. Wallmann,46,Dr. Walimann,1,False,Hessen,"Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit",Präsident
+REVIEW,Steinhoff,45,Steinhoftf,1,False,Nordrhein-Westfalen,Vizepräsident,
+REVIEW,Goppel,43,GCoppel,1,False,Bayern,"Berichterstatter|Ministerpräsident Dr. Heubl], Staatsministe",Vizepräsident
+REVIEW,Dr. von Dohnanyi,42,Dr. von Dohnanyl,8,True,Hamburg,Bundesminister für Bildung und Wissenschaft|Parlamentarische,Bundesminister für Bildung und Wissenschaft|Vizepräsident
+REVIEW,Dr. von Dohnanyi,42,Dr. von Dohnanyli,1,False,Hamburg,Bundesminister für Bildung und Wissenschaft|Parlamentarische,Vizepräsident
+REVIEW,Griesinger,41,QGriesinger,1,False,Baden-Württemberg,,Berichterstatterin
+REVIEW,Becher,40,Becker,37,False,Rheinland-Pfalz,Berichterstatter,Amtierender Präsident|Berichterstatter
+LOW-role-conflict,Becher,40,Dr. Bucher,4,False,Rheinland-Pfalz,Berichterstatter,Bundesminister der Justiz|Bundesminister für Wohnungswesen u
+REVIEW,Becher,40,Prof. Dr. Becker,2,False,Rheinland-Pfalz,Berichterstatter,
+LOW-role-conflict,Willms,39,Dr. Wilms,4,False,Bremen,"Berichterstatter|Senator für Bundesangelegenheiten Fröhlich,",Bundesminister für Bildung und Wissenschaft
+REVIEW,Florian Gerster,38,Florlan Gerster,2,True,Rheinland-Pfalz,Berichterstatter,
+REVIEW,Dr. Schaefer,36,Dr. Schäfer,22,True,Schleswig-Holstein,Berichterstatter,Berichterstatter|Staaissekretär im Bundesministerium des Inn
+LOW-role-conflict,Dr. Schaefer,36,Prof. Dr. Schäfer,1,False,Schleswig-Holstein,Berichterstatter,Staatssekretär im Bundesministerium für Angelegenheiten des 
+REVIEW,Dr. Schaefer,36,Schäfer,12,False,Schleswig-Holstein,Berichterstatter,Berichterstatter|Staatsminister im Auswärtigen Amt
+REVIEW,Gustav Wabro,36,Gustav Wahro,1,False,Baden-Württemberg,Berichterstatter|Staatssekretär im Ministerium für Bundes- u,"Staatssekretär, Bevollmächtigter des Landes Baden-Württember"
+REVIEW,Lemmer,35,Lummer,6,False,Nordrhein-Westfalen,Berichterstatter,
+LOW-role-conflict,Dr. Apel,34,Apei,17,False,,Bundesminister der Finanzen,Berichterstatter
+REVIEW,Dr. Apel,34,Apeil,4,False,,Bundesminister der Finanzen,
+LOW-role-conflict,Dr. Apel,34,Dr. Apelt,6,False,,Bundesminister der Finanzen,Berichterstatter
+REVIEW,Prof. Dr. Scholz,33,Prof. Dr. Schoiz,3,True,Berlin,Bundesminister der Verteidigung,
+REVIEW,Prof. Dr. Scholz,33,Prof. Dr. Scholiz,2,True,Berlin,Bundesminister der Verteidigung,
+LOW-role-conflict,Prof. Dr. Scholz,33,Schulz,16,False,Berlin,Bundesminister der Verteidigung,Amtierender Präsident|Vizepräsident
+REVIEW,Dr. Heubl,32,Dr. HeubI,7,True,Bayern,Berichterstatter|Staatsminister für Bundesangelegenheiten (z,
+REVIEW,Dr. Heubl,32,Dr. Heubi,4,True,Bayern,Berichterstatter|Staatsminister für Bundesangelegenheiten (z,
+REVIEW,Dr. Heubl,32,Dr. HeublI,2,True,Bayern,Berichterstatter|Staatsminister für Bundesangelegenheiten (z,
+REVIEW,Bärbel Höhn,32,Bärbei Höhn,2,True,Nordrhein-Westfalen,,
+LOW-role-conflict,Wildermuth,32,Wildermute,1,True,,Bundesminister für Wohnungsbau|Bundesminister für Wohnungswe,Bundesminister für WohnungSbau
+REVIEW,Kiose,31,Klöse,1,False,Hamburg,Präsident,Präsident
+REVIEW,Kiose,31,Kliose,6,True,Hamburg,Präsident,Präsident
+LOW-role-conflict,Eicher,30,Eichel,2,False,,Staaissekretär des Bundesministeriums für Arbeit und Sozialo,Amtierender Präsident
+REVIEW,Enghoim,30,Enghölm,1,False,Schleswig-Holstein,Präsident|Vizepräsident,Präsident
+REVIEW,Enghoim,30,Engholim,11,False,Schleswig-Holstein,Präsident|Vizepräsident,Bundesminister für Bildung und Wissenschaft|Präsident|Vizepr
+REVIEW,Dr. Theodor Waigel,30,Dr. Theodor Walgel,4,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+LOW-role-conflict,Fink,30,Dr. Finck,1,False,Bayern,Staatssekretär im Staatsministerium des Innern Berlin,Berichterstatter
+REVIEW,Dr. Manfred Stolpe,29,Dr. Manfred Stoipe,1,False,Brandenburg,Amtierender Präsident|Vizepräsident,Vizepräsident
+REVIEW,Streibl,28,Streibi,5,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Streibl,28,Streibil,2,True,Bayern,Berichterstatter,
+REVIEW,Gerhard Glogowski,28,Gerhard Giogowski,2,False,Niedersachsen,Vizepräsident,Vizepräsident
+REVIEW,Gerhard Glogowski,28,Gerhard Glogowskd,1,False,Niedersachsen,Vizepräsident,Vizepräsident
+REVIEW,Gerhard Glogowski,28,Gerhard Glogowskl,2,True,Niedersachsen,Vizepräsident,
+REVIEW,Prof. Ursula Männle,28,Prof. Ursula Männie,16,True,Bayern,Berichterstatterin,Berichterstatterin
+REVIEW,Prof. Ursula Männle,28,Prof. Ursula Männlie,11,True,Bayern,Berichterstatterin,Berichterstatterin
+LOW-role-conflict,Dr. Weichmann,27,Prof. Dr. Welchmann,7,True,Hamburg,"Berichterstatter|Senator Hessen|Senator, Finanzbehörde Hesse",Präsident
+LOW-role-conflict,Dr. Weichmann,27,Prof. Dr. Weilchmann,5,False,Hamburg,"Berichterstatter|Senator Hessen|Senator, Finanzbehörde Hesse",Präsident
+REVIEW,Theisen,26,Thelsen,2,True,Rheinland-Pfalz,,
+REVIEW,Dr. Geissler,26,Dr. Geisler,1,False,Rheinland-Pfalz,Berichterstatter,
+LOW-role-conflict,Dr. Geissler,26,Dr. Gelßler,3,True,Rheinland-Pfalz,Berichterstatter,"Bundesminister für Jugend, Familie und Gesundheit"
+LOW-role-conflict,Dr. Geissler,26,Dr. Geißlier,2,False,Rheinland-Pfalz,Berichterstatter,"Bundesminister für Jugend, Familie und Gesundheit"
+REVIEW,Geil,24,Gell,4,True,Rheinland-Pfalz,,
+REVIEW,Geil,24,Heil,1,False,Rheinland-Pfalz,,"Bundesministerium für Arbeit und Soziales. Hubertus Heil, Bu"
+REVIEW,Franke,23,Franken,4,False,Hessen,Berichterstatter|Bundesminister für innerdeutsche Beziehunge,Berichterstatter
+REVIEW,Franke,23,Frank,11,False,Hessen,Berichterstatter|Bundesminister für innerdeutsche Beziehunge,Antragsteller|Berichterstatter
+REVIEW,Dr. Wickimayr,23,Dr. Wicklmayr,6,True,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Dr. Wickimayr,23,Dr. WickIimayr,2,True,Saarland,Berichterstatter,
+REVIEW,Dr. Schäfer,22,Dr. Schäter,1,False,Schleswig-Holstein,Berichterstatter|Staaissekretär im Bundesministerium des Inn,Staatssekretär im Bundesministerium des Innern
+REVIEW,Jaumann,22,Prof. Dr. Baumann,1,False,Bayern,Berichterstatter|Staatssekretär im Staatsministerium der Fin,
+LOW-role-conflict,Dr. Schäfer,22,Schäfter,2,False,Schleswig-Holstein,Berichterstatter|Staaissekretär im Bundesministerium des Inn,Bundesminister der Finanzen
+LOW-role-conflict,Dr. Haak,22,Dr. Haack,10,False,Nordrhein-Westfalen,Schriftführer,"Bundesminister für Raumordnung, Bauweren und Städtebau|Bunde"
+LOW-role-conflict,Voigt,22,Vogt,21,False,Niedersachsen,Berichterstatter,"Bundesministerium für Arbeit und Sozialord-Nung. Vogt, Parl."
+REVIEW,Dr. Hansen,21,Jansen,1,False,Rheinland-Pfalz,Berichterstatter|Berichterstatterin,
+LOW-role-conflict,Vogt,21,Dr. Voget,1,True,,"Bundesministerium für Arbeit und Sozialord-Nung. Vogt, Parl.",Präsident
+LOW-role-conflict,Vogt,21,Voget,1,True,,"Bundesministerium für Arbeit und Sozialord-Nung. Vogt, Parl.",Staatsminister beim Bundeskanzler
+LOW-role-conflict,Dr. Schmidt,20,Dr. Schmid,8,False,Hessen,Berichterstatter,Bundesminister für Angelegenheiten des Bundesrates und der L
+LOW-role-conflict,Dr. Schmidt,20,Prof. Dr. Schmid,4,False,Hessen,Berichterstatter,Bundesminister für Angelegenheiten des Bundesrates und der L
+REVIEW,Dr. Schmidt,20,Schmid,2,False,Hessen,Berichterstatter,Berichterstatter
+LOW-role-conflict,Dr. Schmidt,20,Schmildt,1,False,Hessen,Berichterstatter,Parl. Staatssekretär beim Bundesminister der Verteidigung
+REVIEW,Prof. Dr. Kurt Faltlhauser,20,Prof. Dr. Kurt Faltihauser,3,False,Bayern,Parl. Staatssekretär beim Bundesminister der Finanzen,Parl. Staatssekretär beim Bundesminister der Finanzen
+REVIEW,Jahn,20,Dr. Hahn,17,False,,"Bundesminister der Justiz|Bundesminister der Justiz , Beschl",
+LOW-role-conflict,Jahn,20,Dr. Jatın,1,True,,"Bundesminister der Justiz|Bundesminister der Justiz , Beschl","Parl. Staatssekretär beim Bundesminister für Raumordnung, Ba"
+REVIEW,Etzel,20,Eizel,1,True,,Bundesminister der Finanzen|Bundesminister der Finanzen Besc,Bundesminister der Finanzen
+LOW-role-conflict,Jahn,20,Prof. D. Dr. Hahn,6,False,,"Bundesminister der Justiz|Bundesminister der Justiz , Beschl",Berichterstatter
+LOW-role-conflict,Etzel,20,Dr. Wetzel,1,True,,Bundesminister der Finanzen|Bundesminister der Finanzen Besc,Staatssekretär des Bundesministeriums der Verteidigung
+REVIEW,Dr. Hillermeier,20,Dr. Hillermeiler,3,True,Bayern,Berichterstatter|Staatsminister der Justiz Berlin,Berichterstatter
+REVIEW,Dr. Hillermeier,20,Dr. Hillermeler,8,True,Bayern,Berichterstatter|Staatsminister der Justiz Berlin,Berichterstatter
+REVIEW,Dr. h.c. Strauß,20,Dr. h. c. StraußB,1,False,Bayern,Präsident,Präsident
+REVIEW,Dr. Anders,19,Dr. Auders,1,True,,Staatssekretär im Bundesministerium der Justiz|Staatssekretä,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Maijer,19,Dr. Maijier,5,True,,Präsident,Präsident
+REVIEW,Dr. Maijer,19,Dr. Maijler,1,True,,Präsident,Präsident
+REVIEW,Dr. Maijer,19,Dr. Mailer,1,True,,Präsident,Präsident
+REVIEW,Dr. Maijer,19,Dr. Maiter,2,True,,Präsident,Präsident
+REVIEW,Dr. Maijer,19,Dr. Maxjer,2,True,,Präsident,Präsident
+REVIEW,Claussen,19,Ciaussen,1,True,Schleswig-Holstein,Berichterstatter|Staatssekretär im Bundesministenium für Arb,Berichterstatter
+LOW-role-conflict,Dr. Dahlgrün,19,Dahigrün,1,True,,Bundesminister der Finanzen,"Bundesminister der Finanzen , . Beschluß"
+REVIEW,Dr. Dahlgrün,19,Dr. Dahigrün,2,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrün,19,Dr. Dahlgrüm,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Maag,19,Magg,1,True,Bayern,"Berichterstatter|Staatssekretär Stain, Staatssekretär Berlin",
+REVIEW,Bömer,19,Bömner,2,False,Hessen,Amtierender Präsident|Präsident|Vizepräsident,Amtierender Präsident|Präsident
+REVIEW,Dr. Maijer,19,Dr. Majer,4,True,,Präsident,Präsident
+REVIEW,Dr. Dahlgrün,19,Dr. Dahlgrümn,2,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrün,19,Dr. Dahlgrünm,2,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrün,19,Dr. Dahligrün,2,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Claus Möller,19,Claus Möiler,1,True,Schleswig-Holstein,Berichterstatter,
+REVIEW,Josef Miller,19,Dr. Josef Müller,5,True,Bayern,,GeneralBerichterstatter
+REVIEW,Peter Radunski,18,Peter Radunskl,1,True,Berlin,"Senator für Wissenschaft, Forschung und Kultur Brandenburg",
+REVIEW,Hohlwegler,18,Hohlweger,1,True,Baden-Württemberg,Berichterstatter|MitBerichterstatter,
+REVIEW,Dr. Freiherr von Waldenfels,18,Dr. Freiherr von Waldenfeis,1,False,Bayern,Berichterstatter,
+REVIEW,Dr. Friedhelm Repnik,17,Dr. Friedheim Repnik,1,True,Baden-Württemberg,,
+REVIEW,Apei,17,Apeil,4,True,Hamburg,Berichterstatter,
+LOW-role-conflict,Apei,17,Dr. Apeil,1,False,Hamburg,Berichterstatter,Bundesminister der Finanzen
+REVIEW,Dr. Hahn,17,Dr. Jahn,8,False,Saarland,,Parl. Staatssekretär beim Bundesminister der Justiz|Parl. St
+REVIEW,Sauter,17,Dr. Sauer,6,False,Bayern,,
+REVIEW,Sauter,17,Sauer,1,False,Bayern,,
+REVIEW,Nolting-Hauff,17,Dr. Nolting-Haufif,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Friedhelm Repnik,17,Dr. Friedheilm Repnik,1,True,Baden-Württemberg,,
+REVIEW,Dr. Lore Maria Peschel-Gutzeit,17,Dr. Lore Maria Peschei-Gutzeit,4,False,Hamburg,,
+REVIEW,Dr. Lore Maria Peschel-Gutzeit,17,Dr. Lore Maria Peschel-Gutzelt,1,False,Hamburg,,
+REVIEW,Dr. Lore Maria Peschel-Gutzeit,17,Dr. Lore Marie Peschel-Gutzeit,1,False,Hamburg,,Senatorin für Justiz Brandenburg
+REVIEW,Dr. Lore Maria Peschel-Gutzeit,17,Dr. Lore Marla Peschel-Gutzeit,2,False,Hamburg,,
+REVIEW,Dr. Lore Maria Peschel-Gutzeit,17,Dr. Lore-Maria Peschei-Gutzeit,1,True,Hamburg,,
+REVIEW,Dr. Erhard,16,Dr. EFhard,1,False,Bayern,Bundeskanzler|Bundesminister für Wirischaft|Bundesminister f,Präsident
+REVIEW,Dr. Erhard,16,Dr. Ehhard,2,False,Bayern,Bundeskanzler|Bundesminister für Wirischaft|Bundesminister f,Präsident
+REVIEW,Dr. Hirsch,16,Kirsch,3,False,Nordrhein-Westfalen,,Berichterstatter|Senator für Justiz Bremen
+REVIEW,Dr. Oechsle,16,Dr. Oecmsle,1,True,Bayern,Berichterstatter,
+REVIEW,Schulz,16,Dr. Schultz,1,False,Hamburg,Amtierender Präsident|Vizepräsident,
+LOW-role-conflict,Schulz,16,Dr. Schüly,1,False,Hamburg,Amtierender Präsident|Vizepräsident,Berichterstatter
+REVIEW,Schulz,16,Schuliz,1,True,Hamburg,Amtierender Präsident|Vizepräsident,
+REVIEW,Schulz,16,Schüfz,2,False,Hamburg,Amtierender Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Schulz,16,Schüiz,2,False,Hamburg,Amtierender Präsident|Vizepräsident,Amtierender Präsident|Präsident
+REVIEW,Schulz,16,Schültz,2,False,Hamburg,Amtierender Präsident|Vizepräsident,Präsident|Vizepräsident
+REVIEW,Dr. Seebohm,16,Dr.-Ing. Szeebohm,1,True,,Bundesminister für Verkchr|Bundesminister für Verkehr|Bundes,Bundesminister für Verkehr
+LOW-role-conflict,Dr. Erhard,16,D. Ehard,1,False,Bayern,Bundeskanzler|Bundesminister für Wirischaft|Bundesminister f,Vizepräsident
+REVIEW,Prof. Ursula Männie,16,Prof. Ursula Männile,1,True,Bayern,Berichterstatterin,
+REVIEW,Prof. Ursula Männie,16,Prof. Ursula Männlie,11,True,Bayern,Berichterstatterin,Berichterstatterin
+REVIEW,Dr. Hoegner,15,Dr. Hoegener,1,True,Bayern,,Berichterstatter
+REVIEW,Dr. Hoegner,15,Dr. Hoegnebr,1,True,Bayern,,
+REVIEW,Steinert,15,Stelnert,3,True,Hamburg,"Berichterstatter|Senator, Bevollmächtigter der Freien und Ha",Berichterstatter
+REVIEW,Dr. Mater,15,Dr. Mader,1,True,,Präsident,Präsident
+REVIEW,Dr. Mater,15,Dr. Majer,4,True,,Präsident,Präsident
+REVIEW,Dr. Mater,15,Dr. Maler,1,True,,Präsident,Präsident
+REVIEW,Dr. Mater,15,Dr. Matfr,2,True,,Präsident,Präsident
+REVIEW,Dr. Mater,15,Dr. Maiter,2,True,,Präsident,Präsident
+REVIEW,Dr. Mater,15,Dr. Matier,1,True,,Präsident,Präsident
+REVIEW,Dufhues,14,Duihues,2,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Hemiler,14,Hemfler,5,True,Hessen,Berichterstatter,Berichterstatter
+REVIEW,Kalsen,14,Kailsen,1,False,Bremen,Präsident|Vizepräsident,Präsident
+REVIEW,Kalsen,14,Kalisen,6,True,Bremen,Präsident|Vizepräsident,Präsident
+REVIEW,Kalsen,14,Kaysen,1,False,Bremen,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Dufhues,14,DBufhues,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Dufhues,14,Duifhues,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Hemiler,14,Hemifler,1,True,Hessen,Berichterstatter,
+REVIEW,von Lautz,14,von Laufz,1,True,Saarland,Berichterstatter,
+REVIEW,Heidrun Alm-Merk,14,Heidrun Aim-Merk,1,True,Niedersachsen,,
+REVIEW,Dr. Held,14,Dr. Heid,1,True,Bayern,Berichterstatter,
+LOW-role-conflict,Lücke,14,Dr. Lübke,2,True,,Bundesminister des Innern|Bundesminister für Wohnungsbau|Bun,"Bundesminister für Ernährung, Landwirtschaft und Forsten"
+LOW-role-conflict,Lücke,14,Lüce,1,True,,Bundesminister des Innern|Bundesminister für Wohnungsbau|Bun,Bundesminister des Innern Beschluß
+REVIEW,Lücke,14,Liücke,1,True,,Bundesminister des Innern|Bundesminister für Wohnungsbau|Bun,Bundesminister des Innern
+REVIEW,von Lautz,14,von Lautfz,1,True,Saarland,Berichterstatter,
+REVIEW,Prof. Dr. Halstenberg,14,Prof. Dr. Halistenberg,1,True,Nordrhein-Westfalen,Berichterstatter,
+LOW-role-conflict,Schmidt,13,Dr. Schmid,8,False,Hessen,Berichterstatter|Bundeskanzler|Bundesminister der Finanzen,Bundesminister für Angelegenheiten des Bundesrates und der L
+LOW-role-conflict,Schmidt,13,Prof. Dr. Schmid,4,False,Hessen,Berichterstatter|Bundeskanzler|Bundesminister der Finanzen,Bundesminister für Angelegenheiten des Bundesrates und der L
+REVIEW,Schmidt,13,Schmid,2,False,Hessen,Berichterstatter|Bundeskanzler|Bundesminister der Finanzen,Berichterstatter
+LOW-role-conflict,Schmidt,13,Schmildt,1,False,Hessen,Berichterstatter|Bundeskanzler|Bundesminister der Finanzen,Parl. Staatssekretär beim Bundesminister der Verteidigung
+REVIEW,Prof. Dr. Edzard Schmidt-Jortzig,13,Prof. Dr. Edzard Schmidt-Jorzig,1,True,,Bundesminister _ der Justiz|Bundesminister der Justiz,Bundesminister der Justiz
+REVIEW,Dr. Hans Geisler,13,Dr. Hans Gelsler,2,True,Sachsen,,
+REVIEW,Schellhaus,13,Scheilhaus,1,True,Niedersachsen,Berichterstatter|MitBerichterstatter,Berichterstatter
+LOW-role-conflict,Schäfer,12,Dr. Schäter,1,False,Baden-Württemberg,Berichterstatter|Staatsminister im Auswärtigen Amt,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Geißler,12,Dr. Geisler,1,False,Rheinland-Pfalz,"Berichterstatter|Bundesminister für Jugend, Familie und Gesu",
+REVIEW,Dr. Geißler,12,Dr. Gelssler,1,True,Rheinland-Pfalz,"Berichterstatter|Bundesminister für Jugend, Familie und Gesu",
+REVIEW,Dr. Geißler,12,Dr. Gelßler,3,True,Rheinland-Pfalz,"Berichterstatter|Bundesminister für Jugend, Familie und Gesu","Bundesminister für Jugend, Familie und Gesundheit"
+REVIEW,Schäfer,12,Dr. Schakfer,1,False,Baden-Württemberg,Berichterstatter|Staatsminister im Auswärtigen Amt,Berichterstatter
+REVIEW,Hellmann,12,Heilmann,3,True,Niedersachsen,Berichterstatter,Berichterstatter
+REVIEW,Hellmann,12,Hellınann,2,True,Niedersachsen,Berichterstatter,
+LOW-role-conflict,Schäfer,12,Schäfter,2,False,Baden-Württemberg,Berichterstatter|Staatsminister im Auswärtigen Amt,Bundesminister der Finanzen
+REVIEW,Dr. Geißler,12,Dr. Geisslier,1,True,Rheinland-Pfalz,"Berichterstatter|Bundesminister für Jugend, Familie und Gesu",
+REVIEW,Dr. Geißler,12,Dr. Geißlier,2,False,Rheinland-Pfalz,"Berichterstatter|Bundesminister für Jugend, Familie und Gesu","Bundesminister für Jugend, Familie und Gesundheit"
+REVIEW,Rupert von Plottnitz,12,Rupert von Plotinitz,2,True,Hessen,,
+REVIEW,Weiser,11,Welser,3,True,Baden-Württemberg,,
+REVIEW,Ystrüm,11,Ystrom,4,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Ystrüm,11,Yström,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Ystrüm,11,Ystrüum,1,True,Bremen,Berichterstatter,
+REVIEW,Engholim,11,Enghölm,1,True,,Bundesminister für Bildung und Wissenschaft|Präsident|Vizepr,Präsident
+REVIEW,Vogel,11,Dr. Vogef,1,True,,Präsident|Staatsminister beim Bundeskanzler|Vizepräsident,Präsident
+REVIEW,Vogel,11,Dr. Vogei,3,False,,Präsident|Staatsminister beim Bundeskanzler|Vizepräsident,Bundesminister der Justiz|Präsident
+REVIEW,Vogel,11,Dr. Voget,1,True,,Präsident|Staatsminister beim Bundeskanzler|Vizepräsident,Präsident
+REVIEW,Vogel,11,Voget,1,True,,Präsident|Staatsminister beim Bundeskanzler|Vizepräsident,Staatsminister beim Bundeskanzler
+REVIEW,Frank,11,Dr. Franke,3,False,Hamburg,Antragsteller|Berichterstatter,
+REVIEW,Vogel,11,Dr. Vogetl,1,True,,Präsident|Staatsminister beim Bundeskanzler|Vizepräsident,Präsident
+REVIEW,Uwe Bartels,11,Uwe Barteis,1,True,Niedersachsen,,
+REVIEW,Dr. Schühly,10,Dr. Schüly,1,True,,Berichterstatter,Berichterstatter
+LOW-role-conflict,Storch,10,Dr. Storck,1,True,,Bundesminister für Arbeil|Bundesminister für Arbeit,Staatssekretär im Bundesministerium für Städtebau und Wohnun
+REVIEW,Schlee,10,Schiee,1,True,Baden-Württemberg,,
+REVIEW,Schlee,10,Schilee,1,True,Baden-Württemberg,,
+REVIEW,Schlee,10,Schlei,1,False,Baden-Württemberg,,Parl. Staatssekretär beim Bundeskanzler
+REVIEW,Schlee,10,Schlel,1,False,Baden-Württemberg,,Parl. Staatssekretär beim Bundeskanzler
+REVIEW,Dr. Borttscheller,10,Dr. Bortftscheller,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Borttscheller,10,Dr. Bortischeller,2,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Borttscheller,10,Dr. Bortitscheller,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Borttscheller,10,Dr. Borttischeller,1,True,Bremen,Berichterstatter,
+REVIEW,Dr. Thomas Schäuble,10,Dr. Thomas Schäubie,2,True,Baden-Württemberg,,
+REVIEW,Dr. Haack,10,Haak,1,False,,"Bundesminister für Raumordnung, Bauweren und Städtebau|Bunde",
+REVIEW,Dr. Miehe,10,Dr. Miche,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Ravens,9,ARavens,1,True,,"Bundesminister für Raumordnung, . Bauwesen und Städtebau|Bun","Bundesminister für Raumordnung, Bauwesen und Städtebau"
+LOW-role-conflict,Dr. Eicher,9,Eichel,2,False,Rheinland-Pfalz,Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Schlügl,9,Dr. Schlogl,1,False,Bayern,Berichterstatter,
+REVIEW,Dr. Schlögl,9,Dr. Schlugl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schlögl,9,Dr. Schlügl,9,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Schlügl,9,Schlögl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Aibrecht,9,Albrecht,2,True,,Amtierender Präsident|Präsident|Vizepräsident,Präsident|Vizepräsident
+LOW-role-conflict,Dr. Claussen,9,Ciaussen,1,False,,Staatssekretär des Bundesministeriums für Arbeit und Sozialo,Berichterstatter
+REVIEW,Dr. Schlügl,9,Dr. Schluügl,2,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Schlögl,9,Dr. Schlögel,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schlögl,9,Dr. Schlüögl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Schlügl,9,Dr. Schlüögl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Michael Vesper,9,Dr. Michaeil Vesper,1,True,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Herbert Helmrich,9,Herbert Heimrich,1,True,Mecklenburg-Vorpommern,,
+REVIEW,Reitz,9,Dr. Ritz,3,False,Hessen,Berichterstatter|Minister,
+LOW-role-conflict,Stain,9,Dr. Stein,4,False,Bayern,Berichterstatter|MitBerichterstatter,Schriftführer
+LOW-role-conflict,Stain,9,Prof. Dr. Stein,1,False,Bayern,Berichterstatter|MitBerichterstatter,Senator für Wissenschaft und Kunst Bremen
+REVIEW,Dr. Peter,9,Dr. Peters,7,False,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Dr. Aibrecht,9,Dr. Alibrecht,2,False,,Amtierender Präsident|Präsident|Vizepräsident,Amtierender Präsident
+REVIEW,Barbara Stolterfoht,9,Barbara Stoiterfoht,1,True,Hessen,,
+REVIEW,Peter Zumkley,9,Peter Zumkiey,1,True,Hamburg,,
+REVIEW,Gerhard Bökel,9,Gerhard Bökeil,1,True,Hessen,Berichterstatter,Berichterstatter
+REVIEW,Peter Zumkley,9,Peter Zumkliey,1,True,Hamburg,,
+REVIEW,Dr. Schedl,8,Dr. SchedI,2,True,Bayern,Berichterstatter|Staatsminister für Wirtschaft und Verkehr B,Berichterstatter
+REVIEW,Dr. Schedl,8,Dr. SchedIl,1,True,Bayern,Berichterstatter|Staatsminister für Wirtschaft und Verkehr B,Berichterstatter
+REVIEW,Dr. Schedl,8,Dr. Schedi,2,True,Bayern,Berichterstatter|Staatsminister für Wirtschaft und Verkehr B,Berichterstatter
+REVIEW,Dr. Schedl,8,Dr. Schedil,1,True,Bayern,Berichterstatter|Staatsminister für Wirtschaft und Verkehr B,Berichterstatter
+LOW-role-conflict,Dr. Schedl,8,Scheel,5,False,Bayern,Berichterstatter|Staatsminister für Wirtschaft und Verkehr B,Bundesminister des Auswärtigen
+REVIEW,Graaff,8,Graaffi,1,False,Niedersachsen,Berichterstatter,Berichterstatter
+REVIEW,Graaff,8,Graafi,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Graaff,8,Graafif,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Graaff,8,Graaif,2,True,Niedersachsen,Berichterstatter,Berichterstatter
+REVIEW,Dr.-Ing. Seebohm,8,Dr.-Ing. Szeebohm,1,True,,Bundesminister für Verkehr,Bundesminister für Verkehr
+REVIEW,Bauer,8,Dr. Sauer,6,False,Bayern,Berichterstatter,
+REVIEW,Bauer,8,Sauer,1,False,Bayern,Berichterstatter,
+REVIEW,Dr. Jahn,8,Dr. Jatın,1,True,,Parl. Staatssekretär beim Bundesminister der Justiz|Parl. St,"Parl. Staatssekretär beim Bundesminister für Raumordnung, Ba"
+LOW-role-conflict,Dr. Jahn,8,Prof. D. Dr. Hahn,6,False,,Parl. Staatssekretär beim Bundesminister der Justiz|Parl. St,Berichterstatter
+LOW-role-conflict,Arendt,8,Arndt,5,False,,Bundesminister für Arbeit und Sozialordnung,Berichterstatter
+LOW-role-conflict,Arendt,8,Dr. Arndt,6,True,,Bundesminister für Arbeit und Sozialordnung,"Bundestagsabgeordneter, Berichterstatter|Parlamentarischer S"
+REVIEW,Bauer,8,Bäumer,1,False,Bayern,Berichterstatter,
+REVIEW,Dipl.-Ing. Schwedler,8,Dipl.-Ing. Schwedier,2,True,Berlin,Berichterstatter|Senator für Bau- und Wohnungswesen Bremen,Berichterstatter
+REVIEW,Dipl.-Ing. Schwedler,8,Schwedier,1,True,Berlin,Berichterstatter|Senator für Bau- und Wohnungswesen Bremen,Berichterstatter
+REVIEW,Leibiried,8,Leibfried,5,True,Baden-Württemberg,Berichterstatter,Berichterstatter
+REVIEW,Speckmann,8,Sieckmann,1,False,Bremen,Berichterstatter|Senator für die Finanzen Hamburg,
+REVIEW,Christiane Krajewski,8,Christiane Krajewskt,1,True,Saarland,Berichterstatterin,
+REVIEW,Christiane Krajewski,8,Christlane Krajewski,1,True,Saarland,Berichterstatterin,
+REVIEW,Dr. Hillermeler,8,Dr. Hiliermeler,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Hillermeler,8,Dr. Hillermeiler,3,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. von Dohnanyl,8,Dr. von Dohnanyli,1,False,Hamburg,Bundesminister für Bildung und Wissenschaft|Vizepräsident,Vizepräsident
+REVIEW,Prof. Dr. Kurt Schelter,8,Prof. Dr. Kurt Scheiter,1,False,Brandenburg,,Staatssekretär im Bundesministrium des Innern
+REVIEW,Dr. Georg Freiherr von Waldenfels,8,Dr. Georg Freiherr von Waldenfeis,1,True,Bayern,,
+REVIEW,Dipl.-Ing. Schwedler,8,Dipl.-Ing. Schwedlier,1,True,Berlin,Berichterstatter|Senator für Bau- und Wohnungswesen Bremen,Berichterstatter
+REVIEW,Dipl.-Ing. Schwedler,8,Schwediler,1,True,Berlin,Berichterstatter|Senator für Bau- und Wohnungswesen Bremen,Berichterstatter
+REVIEW,Leibiried,8,Leibifried,1,True,Baden-Württemberg,Berichterstatter,
+REVIEW,Curilla,7,Curiila,1,True,Hamburg,"Senator, Behörde für Bezirksangelegenheiten, Naturschutz und",
+REVIEW,Curilla,7,Curilia,1,True,Hamburg,"Senator, Behörde für Bezirksangelegenheiten, Naturschutz und",
+REVIEW,Kuhbier,7,Kuhbler,1,True,Hamburg,,
+REVIEW,Dr. Dr. Barschei,7,Dr. Dr. Barschel,3,True,Schleswig-Holstein,Amtierender Präsident,
+LOW-role-conflict,Dr. Pfeiffer,7,Pfeifer,1,False,Bayern,Berichterstatter,"Parl. Staatssekretär beim Bundesminister für Jugend, Familie"
+REVIEW,Walter Riester,7,Waiter Riester,1,True,,Bundesminister für Arbeit und So- zialordnung|Bundesminister,Bundesminister für Arbeit und Sozialordnung
+REVIEW,Ulrich Klinkert,7,Ulrich Kliinkert,1,True,,"Parl. Staatssekretär bei der Bundesministerin für Umwehlt, N","Parl. Staatssekretär bei der Bundesministerin für Umwelt, Na"
+LOW-role-conflict,Bulle,7,Büll,1,False,Saarland,Berichterstatter,Alterspräsident
+REVIEW,Bulle,7,Prof. Dr. Bull,5,False,Saarland,Berichterstatter,
+REVIEW,Lang,7,Dr. Lange,1,False,Bayern,,
+REVIEW,Dr. Riedl,7,Dr. Riedi,1,True,,Parl. Staatssekretär beim Bundesminister für Wirtschaft,Parl. Staatssekretär beim Bundesminister für Wirtschaft
+REVIEW,Lang,7,Lange,5,False,Bayern,,
+REVIEW,Dr. HeubI,7,Dr. HeubIl,1,True,Bayern,,
+REVIEW,Dr. HeubI,7,Dr. Heubil,1,True,Bayern,,
+REVIEW,Dr. HeubI,7,Dr. HeublI,2,True,Bayern,,
+REVIEW,Dr. Riedl,7,Dr. Riedil,1,True,,Parl. Staatssekretär beim Bundesminister für Wirtschaft,Parl. Staatssekretär beim Bundesminister für Wirtschaft
+REVIEW,Käber,7,Kaäber,3,True,Schleswig-Holstein,Berichterstatter,Berichterstatter
+REVIEW,Dr. Dr. Barschei,7,Dr. Dr. Barscheil,1,True,Schleswig-Holstein,Amtierender Präsident,
+REVIEW,Dr. Sievering,7,Sieveking,1,True,,Präsident,Präsident
+REVIEW,Weishäupl,7,Weishxupl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Hans-Jürgen Kaesler,7,Hans-Jürgen Kaesier,5,True,Sachsen-Anhalt,,
+REVIEW,Hans-Jürgen Kaesler,7,Hans-Jürgen Kaester,1,True,Sachsen-Anhalt,,
+REVIEW,Dr. von Nottbeck,7,Dr. von Notibeck,1,True,Niedersachsen,,
+REVIEW,Dr. Sievering,7,Dr. Sieverking,1,True,,Präsident,Präsident
+REVIEW,Prof. Dr. Welchmann,7,Prof. Dr. Weilchmann,5,False,Hamburg,Präsident,Präsident
+REVIEW,Weishäupl,7,Weishaäupl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Willi Waike,7,Willi Walke,2,True,Niedersachsen,,Berichterstatter
+REVIEW,Dr. Bemdt Seite,7,Dr. Bemndt Seite,2,True,,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Hasseimann,7,Hasseilmann,2,True,Niedersachsen,Berichterstatter,
+REVIEW,Gerhard Mayer-Vorfelder,7,Gerhard Mayer-Vorfeider,1,True,Baden-Württemberg,,
+LOW-role-conflict,Dr. Grieser,6,Griese,1,False,Bayern,Antragsteller|Berichterstatter,"Bundesministerium für Arbeit und Soziales. Kerstin Griese, P"
+REVIEW,Lummer,6,Dr. Zummer,2,False,Berlin,,Berichterstatter
+REVIEW,Hermann,6,Hermans,1,False,Baden-Württemberg,Berichterstatter,
+LOW-role-conflict,Hermann,6,Prof. Heimann,2,False,Baden-Württemberg,Berichterstatter,"Senator für Bundesangelegenheiten. Meyer, Senator für Justiz"
+LOW-role-conflict,Kalisen,6,Kaxisen,1,False,Bremen,Präsident,Vizepräsident
+REVIEW,Küster,6,Kuüster,1,True,Baden-Württemberg,Berichterstatter|MitBerichterstatter,
+REVIEW,Dr. Altmeler,6,Altmeter,2,False,Rheinland-Pfalz,Präsident,Präsident|Vizepräsident
+LOW-role-conflict,Böhrnsen,6,Bührnsen,2,True,Schleswig-Holstein,Berichterstatter,Antragsteller
+LOW-role-conflict,Dr. Altmeler,6,Dr. Altmejer,2,True,Rheinland-Pfalz,Präsident,Vizepräsident
+LOW-role-conflict,Dr. Altmeler,6,Dr. Altmeter,1,False,Rheinland-Pfalz,Präsident,Vizepräsident
+REVIEW,Hermann,6,Herrmann,1,False,Baden-Württemberg,Berichterstatter,
+REVIEW,Porzner,6,Porzuner,1,True,,Parl. Staatssekretär beim Bundesminister der Finanzen|Parlam,Parlamentarischer Staatssekretär beim Bundesminister der Fin
+REVIEW,Kliose,6,Klöse,1,False,Hamburg,Präsident,Präsident
+REVIEW,Böhrnsen,6,Böührnsen,1,True,Schleswig-Holstein,Berichterstatter,Berichterstatter
+REVIEW,Dr. Altmeler,6,Dr. Altmeljer,1,False,Rheinland-Pfalz,Präsident,
+REVIEW,Dr. Wicklmayr,6,Dr. WickImayr,5,True,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Neumayer,6,Neumatyer,1,True,,Bundesminister der Justiz|Bundesminister für Wohnungsbau|Bun,Bundesminister für Wohnungsbau
+REVIEW,Dr. Stoitenberg,6,Stoltenberg,1,False,Schleswig-Holstein,Bundesminister der Finanzen|Präsident|Vizepräsident,Präsident
+REVIEW,Günter Meyer,6,Qünter Meyer,1,True,Sachsen,Staatsminister für Bundes- und Europaangelegenheiten und Che,
+REVIEW,Dr. Wicklmayr,6,Dr. Wickilmayr,1,True,Saarland,Berichterstatter,
+REVIEW,Rudolf Geil,6,Rudolf Gell,1,True,Mecklenburg-Vorpommern,Staatssekretär m Bundesministerium für Wirtschaft,
+REVIEW,Dr. Arno Waiter,6,Dr. Arno Wailter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+LOW-role-conflict,Dr. Elsner,5,Dr. Eisner,1,False,Hamburg,Berichterstatter,"Senatorin, Gesundheitsbehörde Hessen"
+REVIEW,Dr. Elsner,5,Dr. Elisner,1,True,Hamburg,Berichterstatter,
+REVIEW,Dr. Maijier,5,Dr. Maijler,1,True,,Präsident,Präsident
+REVIEW,Dr. Maijier,5,Dr. Majier,1,True,,Präsident,Präsident
+REVIEW,Scheel,5,Schedl,1,False,,Bundesminister des Auswärtigen,
+LOW-role-conflict,Scheel,5,Schlel,1,True,,Bundesminister des Auswärtigen,Parl. Staatssekretär beim Bundeskanzler
+REVIEW,Dr. Schäuble,5,Dr. Schäubie,1,True,,Bundesminister des Innern,Bundesminister des Innern
+REVIEW,Hemfler,5,Hemifler,1,True,Hessen,Berichterstatter,
+REVIEW,Streibi,5,Streibil,2,True,Bayern,Berichterstatter,
+REVIEW,Dr. Günter Rexrodt,5,Dr. Günter Hexrodt,1,True,,Bundesminister für Wirtschafit|Bundesminister für Wirtschaft,Bundesminister für Wirtschaft
+REVIEW,Dr. Volker Sklenar,5,Dr. Volker Sktenar,1,True,Thüringen,,
+REVIEW,Kiaus Wedemeier,5,Kilaus Wedemeier,2,True,,Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Bleek,5,Aleek,1,True,,Staatssekretär im Bundesministerium des Innern|Staatssekretä,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Bleek,5,Bieek,1,True,,Staatssekretär im Bundesministerium des Innern|Staatssekretä,Staatssekretär im Bundesministerium des Innern
+LOW-role-conflict,Dr. Enard,5,D. Ehard,1,True,,Präsident,Vizepräsident
+REVIEW,Lange,5,Dr. Lang,1,False,Hamburg,,Berichterstatter
+REVIEW,Dr. Pirkl,5,Dr. PirkI,4,True,Bayern,,
+REVIEW,Dr. Pirkl,5,Dr. Pirki,1,True,Bayern,,
+REVIEW,Dr. Enard,5,Dr. Ehnard,3,True,,Präsident,Präsident
+REVIEW,Dr. Enard,5,Dr. Einard,1,True,,Präsident,Präsident
+REVIEW,Dr. Enard,5,Dr. Entard,1,True,,Präsident,Präsident
+REVIEW,Krause,5,Dr. Kraus,2,False,Baden-Württemberg,Berichterstatter,
+REVIEW,Lange,5,Dr. Langen,1,False,Hamburg,,
+REVIEW,Lange,5,Dr. Langer,1,False,Hamburg,,Staatssekretär im Bundesministerium für Wirischaft
+REVIEW,Dr. h. c. Streibl,5,Dr. h. c. Streibi,2,True,Bayern,,
+REVIEW,Hermsdorf,5,Hermsdori,1,True,,Parl. Staatssekretär beim Bundesminister der Finanzen|Parlam,Parlamentarischer Staatssekretär beim Bundesminister für Wir
+REVIEW,Hans-Jürgen Kaesier,5,Hans-Jürgen Kaester,1,True,Sachsen-Anhalt,,
+REVIEW,Dr. Klaus Kinkel,5,Dr. Klaus Kinkei,1,True,,Bundesminister des Auswärtigen|Bundesminister des Auswärtlig,Bundesminister des Auswärtigen
+REVIEW,Dr. Armo Walter,5,Dr. Aro Walter,1,True,,Amtierender Präsident,Amtierender Präsident
+REVIEW,Dr. Wehgartner,5,Dr. Wehgariner,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. WickImayr,5,Dr. WickIimayr,2,True,Saarland,Berichterstatter,
+REVIEW,Dr. WickImayr,5,Dr. Wickilmayr,1,True,Saarland,Berichterstatter,
+REVIEW,Dr. h. c. Streibl,5,Dr. h. c. Streibli,1,True,Bayern,,
+REVIEW,Leibfried,5,Leibifried,1,True,Baden-Württemberg,Berichterstatter,
+REVIEW,Dr. Armo Walter,5,Dr. Armno Walter,2,False,,Amtierender Präsident,Amtierender Präsident
+LOW-role-conflict,Dr. Bucher,4,Blücher,2,True,,Bundesminister der Justiz|Bundesminister für Wohnungswesen u,Bundesminister für wirtschaftliche Zusammenarbeit|Vizekanzle
+REVIEW,Danner,4,Dannee,1,True,Hamburg,,Berichterstatter
+REVIEW,Franken,4,Dr. Franke,3,False,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Dr. Seifriz,4,Dr. Seiiriz,2,True,Baden-Württemberg,Berichterstatter,
+REVIEW,Schiess,4,Schless,1,True,Baden-Württemberg,,
+REVIEW,Ystrom,4,Ystrum,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Ziegier,4,Ziegler,4,True,Rheinland-Pfalz,Berichterstatter,
+REVIEW,Brüderle,4,Brüderie,1,True,Rheinland-Pfalz,,
+REVIEW,Dr. Ing. Seebohm,4,Dr.-Ing. Szeebohm,1,True,,Bundesminister für Verkehr,Bundesminister für Verkehr
+REVIEW,Dr. Seifriz,4,Dr. Selifriz,1,True,Baden-Württemberg,Berichterstatter,
+LOW-role-conflict,Prof. Dr. Wolters,4,Weolters,1,True,,"Staatssekretär im Bundesministerium für Jugend, Familie und ","Staatsminister des Innern und Sozialminister Westenberger, S"
+LOW-role-conflict,Prof. Dr. Wolters,4,Wolhters,1,False,,"Staatssekretär im Bundesministerium für Jugend, Familie und ",Berichterstatter
+REVIEW,Dr. Theodor Walgel,4,Dr. Theodor Wailgel,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Krapp,4,Prof. Dr. Krupp,4,False,Niedersachsen,Berichterstatter,
+REVIEW,Dr. Majer,4,Dr. Mader,1,True,,Präsident,Präsident
+REVIEW,Dr. Majer,4,Dr. Maler,1,True,,Präsident,Präsident
+REVIEW,Dr. Seidl,4,Dr. Seidi,1,True,Bayern,,
+REVIEW,Dr. Wilms,4,Wülms,1,False,,Bundesminister für Bildung und Wissenschaft,
+REVIEW,Gell,4,Geli,1,True,Rheinland-Pfalz,,
+REVIEW,Dr. Heubi,4,Dr. HeubIl,1,True,Bayern,,
+REVIEW,Dr. Heubi,4,Dr. Heubil,1,True,Bayern,,
+REVIEW,Dr. Heubi,4,Dr. HeublI,2,True,Bayern,,
+REVIEW,Klein,4,Dr. Kilein,1,True,Berlin,,Berichterstatter
+REVIEW,Dr. Majer,4,Dr. Majier,1,True,,Präsident,Präsident
+REVIEW,Dr. Majer,4,Dr. Maxjer,2,True,,Präsident,Präsident
+REVIEW,Dr. Wilms,4,Wilims,1,False,,Bundesminister für Bildung und Wissenschaft,
+REVIEW,Schwedler,4,Dipl.-Ing. Schwedier,2,True,Berlin,Berichterstatter,Berichterstatter
+LOW-role-conflict,Dr. Kiesinger,4,Dr. Kielinger,2,False,Baden-Württemberg,Bundeskanzler,Berichterstatter
+LOW-role-conflict,Dr. Kiesinger,4,Kiésinger,1,False,Baden-Württemberg,Bundeskanzler,Präsident
+REVIEW,Dr. Scheurien,4,Dr. Scheurlen,3,True,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Schwedler,4,Schwedier,1,True,Berlin,Berichterstatter,Berichterstatter
+REVIEW,Ernst Welteke,4,Ermnst Welteke,1,True,Hessen,,
+REVIEW,Schwedler,4,Dipl.-Ing. Schwedlier,1,True,Berlin,Berichterstatter,Berichterstatter
+LOW-role-conflict,Dr. Kiesinger,4,Kliesinger,1,False,Baden-Württemberg,Bundeskanzler,Vizepräsident
+REVIEW,Dr. Scheurien,4,Dr. Scheurilen,1,True,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Dr. Seiermann,4,Dr. Seilermann,1,True,,Staatssekretär im Bundesministerium für Verkehr|Staatssekret,Staatssekretär im Bundesministerium für Verkehr
+REVIEW,Schwedler,4,Schwediler,1,True,Berlin,Berichterstatter,Berichterstatter
+REVIEW,Dr. Lore Maria Peschei-Gutzeit,4,Dr. Lore Marla Peschei-Gutzeit,1,True,Berlin,,
+REVIEW,Dr. Bender,3,Benner,2,False,Baden-Württemberg,,
+LOW-role-conflict,Dr. Wörner,3,Dr. Börner,1,True,,Bundesminister der Verteidigung,Präsident
+REVIEW,Dr. Ehnard,3,Dr. Ehhard,2,True,,Präsident,Präsident
+REVIEW,Dr. Ehnard,3,Dr. Einard,1,True,,Präsident,Präsident
+REVIEW,Dr. Nölling,3,Dr. Nölllng,1,True,Hamburg,,
+LOW-role-conflict,Dr. Wörner,3,Sörner,2,True,,Bundesminister der Verteidigung,Präsident
+REVIEW,Prof. Dr. Engler,3,Prof. Dr. Engier,1,True,Baden-Württemberg,Berichterstatter,Berichterstatter
+REVIEW,Prof. Dr. Kewenig,3,Prof. Dr. Kewenlg,1,True,Berlin,,
+REVIEW,Prof. Dr. Schoiz,3,Prof. Dr. Scholiz,2,True,Berlin,,
+REVIEW,Prof. Dr. Schoiz,3,Schüiz,2,False,Berlin,,Amtierender Präsident|Präsident
+REVIEW,Dr. Altmaier,3,Dr. Altmfier,1,False,,Präsident|Vizepräsident,
+REVIEW,Dr. Schiecht,3,Dr. Schlecht,3,True,,Staatssekretär im Bundesministerium für Wirtschaft,Staatssekretär im Bundesministerium für Wirtschaft
+REVIEW,Prof. Dr. Schiller,3,Dr. Schieler,1,False,,Bundesminister für Wirtschaft|Bundesminister für Wirtschaft ,
+REVIEW,Dr. Strehike,3,Dr. Strehlke,3,True,,Staaissekretär im Bundesministerium für Arbeit und Sozialord,Staatssekretär im Bundesministerium für Arbeit und Sozialord
+REVIEW,Heilmann,3,Hellımann,1,True,Niedersachsen,Berichterstatter,
+LOW-role-conflict,Heilmann,3,Prof. Heimann,2,False,Niedersachsen,Berichterstatter,"Senator für Bundesangelegenheiten. Meyer, Senator für Justiz"
+REVIEW,Frieder Birzele,3,Frieder Birzeie,1,True,Baden-Württemberg,,
+REVIEW,Otto Kreischmer,3,Otto Kretischmer,1,True,Thüringen,,
+REVIEW,Dr. Vogei,3,Dr. Vogef,1,False,Berlin,Bundesminister der Justiz|Präsident,Präsident
+REVIEW,Dr. Vogei,3,Dr. Voget,1,False,Berlin,Bundesminister der Justiz|Präsident,Präsident
+LOW-role-conflict,Dr. Vogei,3,Voget,1,False,Berlin,Bundesminister der Justiz|Präsident,Staatsminister beim Bundeskanzler
+REVIEW,Gröbl,3,Gröbi,1,True,,"Parl. Staatssekretär beim Bundesminister für Umwelt, Natursc","Parl. Staatssekretär beim Bundesminister für Umwelt, Natursc"
+REVIEW,Kiesl,3,KiesI,1,True,Bayern,Berichterstatter|Staatssekretär im Staatsministerium des Inn,
+LOW-role-conflict,Dr. Ehnard,3,D. Ehard,1,True,,Präsident,Vizepräsident
+REVIEW,Kaäber,3,Kaber,1,True,Schleswig-Holstein,Berichterstatter,
+REVIEW,Dr. Altmeijer,3,Dr. Altmejer,2,False,,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Dr. Altmeijer,3,Dr. Altmeljer,1,True,,Präsident|Vizepräsident,
+REVIEW,Dr. Dr. Barschel,3,Dr. Dr. Barscheil,1,True,Schleswig-Holstein,,
+REVIEW,Dr. Steveking,3,Dr. Stevektng,1,True,,Präsident,Präsident
+REVIEW,Dr. Steveking,3,Sieveking,1,True,,Präsident,Präsident
+REVIEW,Krollmann,3,Kroilmann,1,True,Hessen,,
+REVIEW,Lahnstein,3,Lahnsteln,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Henning Vorscherau,3,Dr. Henning-Voscherau,1,True,,Vizepräsident,Vizepräsident
+REVIEW,D. Dr. Gerstenmaier,3,D. Dr. Gerstenmaler,1,True,,Präsident,Präsident
+REVIEW,Dr. Ritter Von Lex,3,Ritier Von Lex,1,True,,Staatssekretär im Bundesministerium des Innern,Staatssekretär im Bundesministerium des Innern
+REVIEW,Helmut Holter,3,Heimut Holter,1,True,Mecklenburg-Vorpommern,,
+LOW-role-conflict,Präsidenten,3,Präsidenien,1,True,,"Ministerpräsident Dr. Ehard, eröffnet, Präsident Dr. EHARD|M","Ministerpräsident Kopf, eröffnet. Präsident KOPF"
+REVIEW,Schmldhuber,3,Schmlidhuber,1,True,Bayern,Berichterstatter,
+REVIEW,D. Dr. Gerstenmaier,3,D. Dr. Gerstenmailer,1,True,,Präsident,Präsident
+REVIEW,Dr. Ritter Von Lex,3,Rititer von Lex,1,True,,Staatssekretär im Bundesministerium des Innern,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Bingelmann,3,Dr. Eingelmann,2,True,Bayern,Berichterstatter,
+REVIEW,Dr. Guthsmuths,3,Dr. Gutsmuths,1,True,Bayern,"Berichterstatter|Staatssekretär Simmel, Staatssekretär Berli",
+REVIEW,Dr. Loschelder,3,Dr. Lochelder,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Scheurlen,3,Dr. Scheurilen,1,True,Saarland,Berichterstatter,Berichterstatter
+REVIEW,Dr. von Geldern,3,Dr. von Gelder,1,True,,"Parl. Staatssekretär beim Bundesminister für Ernährung, Land","Parl. Staatssekretär beim Bundesminister für Ernährung, Land"
+REVIEW,Krollmann,3,Krolilmann,1,True,Hessen,,
+LOW-role-conflict,Matihöfer,3,Mattihöfer,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzer
+REVIEW,Dr. Dr. Hundhammer,3,Dr. Dr. Hjundhammer,1,True,Bayern,Berichterstatter,
+REVIEW,Schleußer,3,Schlieußer,1,True,Nordrhein-Westfalen,,
+LOW-role-conflict,Arnolmd,2,Arnolpd,1,True,,Vizepräsident,Präsident
+REVIEW,Benner,2,Eenner,1,False,,,
+REVIEW,Bömner,2,Börmner,1,True,,Amtierender Präsident|Präsident,Präsident
+REVIEW,Bömner,2,Dr. Börner,1,True,,Amtierender Präsident|Präsident,Präsident
+REVIEW,Sörner,2,Dr. Börner,1,True,,Präsident,Präsident
+REVIEW,Dr. Gereke,2,Dr. Dr. Gerecke,1,True,Niedersachsen,,Berichterstatter
+REVIEW,Dr. Gereke,2,Dr. Dr. Gerekre,1,True,Niedersachsen,,Berichterstatter
+REVIEW,Dr. Gereke,2,Dr. Dr. Gerere,1,True,Niedersachsen,,
+REVIEW,Dr. Gereke,2,Dr. Dr. Gerexe,1,True,Niedersachsen,,
+REVIEW,Dr. Ehhard,2,Dr. EFhard,1,True,,Präsident,Präsident
+REVIEW,Dr. Eitard,2,Dr. Einard,1,True,,Präsident,Präsident
+REVIEW,Dr. Meisner,2,Dr. Eisner,1,False,Berlin,,"Senatorin, Gesundheitsbehörde Hessen"
+REVIEW,Dr. Eitard,2,Dr. Entard,1,True,,Präsident,Präsident
+REVIEW,Dr. Maiter,2,Dr. Mailer,1,True,,Präsident,Präsident
+LOW-role-conflict,Dr. Menzel,2,Wenzel,1,True,,"Bundestagsabgeordneter, Berichterstatter",Bundesministerium für Wirtschaft und Klimaschutz. – Sie habe
+REVIEW,Dr. Möller,2,Müller,1,False,,Bundesminister der Finanzen,
+REVIEW,Dr. SchedI,2,Dr. SchedIi,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. SchedI,2,Dr. SchedIl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. SchedI,2,Dr. SchediI,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. SchedI,2,Dr. Schedil,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. SchedI,2,Schedl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schedi,2,Dr. SchedIi,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schedi,2,Dr. SchedIl,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Schedi,2,Dr. SchediI,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schedi,2,Dr. Schedil,1,True,Bayern,Berichterstatter,Berichterstatter
+REVIEW,Dr. Schedi,2,Schedl,1,True,Bayern,Berichterstatter,
+LOW-role-conflict,Schültz,2,Dr. Schulte,1,True,,Präsident|Vizepräsident,Parl. Staatssekretär beim Bundesminister für Verkehr
+REVIEW,Dr. Seiiriz,2,Dr. Seliriz,2,True,Baden-Württemberg,,Berichterstatter
+REVIEW,Dr. Seiiriz,2,Seifriz,1,False,Baden-Württemberg,,
+REVIEW,Dr. Zummer,2,Zimmer,1,True,Rheinland-Pfalz,Berichterstatter,
+REVIEW,Prof. Dr. Becker,2,Eecker,1,True,Saarland,,
+REVIEW,Graaif,2,Graafif,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Läpple,2,Läppile,1,True,Saarland,,
+REVIEW,Prof. Dr. Scholiz,2,Schuliz,1,False,Berlin,,
+REVIEW,Schüiz,2,Schuliz,1,False,,Amtierender Präsident|Präsident,
+REVIEW,Schültz,2,Schuliz,1,False,,Präsident|Vizepräsident,
+REVIEW,Schüfz,2,Schüfiz,1,True,,Präsident|Vizepräsident,Vizepräsident
+LOW-role-conflict,Schüiz,2,Schüfiz,1,True,,Amtierender Präsident|Präsident,Vizepräsident
+REVIEW,Schüfz,2,Schüiz,2,True,,Präsident|Vizepräsident,Amtierender Präsident|Präsident
+REVIEW,Tandler,2,Tandier,1,True,Bayern,,
+REVIEW,Wonleb,2,Wohnleb,1,True,,Vizepräsident,Vizepräsident
+LOW-role-conflict,Wonleb,2,Wonhleb,1,True,,Vizepräsident,Antragsteller
+REVIEW,Altmeter,2,Dr. Altmejer,2,False,,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Duihues,2,DBuihues,1,True,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Dr. Altmejer,2,Dr. Altmeter,1,False,Rheinland-Pfalz,Vizepräsident,Vizepräsident
+REVIEW,Dr. Meyvyers,2,Dr. Meyvers,1,True,,Präsident|Vizepräsident,Präsident
+REVIEW,Dr. Schluügl,2,Dr. Schlugl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schluügl,2,Dr. Schlüögl,1,True,Bayern,Berichterstatter,Berichterstatter
+LOW-role-conflict,Schäfter,2,Dr. Schäter,1,True,,Bundesminister der Finanzen,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Seliriz,2,Dr. Selifriz,1,True,Baden-Württemberg,Berichterstatter,
+REVIEW,Dr. Vomdran,2,Dr. Vomndran,2,True,Bayern,,Schriftführer
+REVIEW,Duihues,2,Duifhues,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Hellınann,2,Hellımann,1,True,Niedersachsen,,
+LOW-role-conflict,Schäfter,2,Prof. Dr. Schäfer,1,True,,Bundesminister der Finanzen,Staatssekretär im Bundesministerium für Angelegenheiten des 
+REVIEW,Von Lautz,2,von Laufz,1,True,Saarland,,
+REVIEW,Vystrüum,2,Ystrüum,1,True,Bremen,Berichterstatter,
+REVIEW,Dr. Bortischeller,2,Dr. Bortitscheller,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Bortischeller,2,Dr. Borttischeller,1,True,Bremen,Berichterstatter,
+REVIEW,Dr. Thomas SchaÈuble,2,Dr. Thomas Schäubie,2,False,,,
+REVIEW,Florlan Gerster,2,Florfan Gerster,1,True,Rheinland-Pfalz,,
+REVIEW,Harald B. Schäfer,2,Harald B. Schäder,1,True,Baden-Württemberg,,
+REVIEW,Rainer Brüderie,2,Rainer Brüderle,1,False,Rheinland-Pfalz,,
+REVIEW,Rainer Brüderie,2,Rainer Brüderlie,1,True,Rheinland-Pfalz,,
+LOW-role-conflict,Hopf,2,Dr. Kopf,1,True,,Staatssekretär im Bundesministerium für Verteidigung|Staatss,Vizepräsident
+REVIEW,Dr. Matfr,2,Dr. Maifr,1,True,,Präsident,Präsident
+REVIEW,Dr. Seldi,2,Dr. Seidi,1,True,Bayern,,
+REVIEW,Dr. Ziun,2,Dr. Zian,1,True,,Präsident,Präsident
+REVIEW,Dr. Ziun,2,Dr. Ziunn,1,True,,Präsident,Präsident
+LOW-role-conflict,Hopf,2,Köpf,1,True,,Staatssekretär im Bundesministerium für Verteidigung|Staatss,Vizepräsident
+LOW-role-conflict,Hopf,2,Xopf,1,True,,Staatssekretär im Bundesministerium für Verteidigung|Staatss,Vizepräsident
+LOW-role-conflict,Balcke,2,Prof. Dr.-Ing. Balke,1,False,Bremen,Senator für das Bauwesen Hamburg,Bundesminister für Atomkernenergie und Wasserwirtschaft
+LOW-role-conflict,Dr. Ehardt,2,D. Ehard,1,False,Bayern,Berichterstatter,Vizepräsident
+LOW-role-conflict,Dr. Ehhard,2,D. Ehard,1,True,,Präsident,Vizepräsident
+REVIEW,Röder,2,Dr. Röäder,1,True,,Präsident|Vizepräsident,Vizepräsident
+REVIEW,Stock,2,Dr. Storck,1,False,Hessen,,Staatssekretär im Bundesministerium für Städtebau und Wohnun
+REVIEW,Funcke,2,Funke,1,False,Nordrhein-Westfalen,,
+LOW-role-conflict,Albrecht,2,Dr. Alibrecht,2,False,,Präsident|Vizepräsident,Amtierender Präsident
+REVIEW,Altmeijer,2,Dr. Altmejer,2,False,,Vizepräsident,Vizepräsident
+REVIEW,Altmeijer,2,Dr. Altmeljer,1,True,,Vizepräsident,
+REVIEW,Altmeter,2,Altmetier,1,True,,Präsident|Vizepräsident,Vizepräsident
+LOW-role-conflict,Bührnsen,2,Böührnsen,1,True,Schleswig-Holstein,Antragsteller,Berichterstatter
+LOW-role-conflict,Dr. Dahligrün,2,Dahigrün,1,True,,Bundesminister der Finanzen,"Bundesminister der Finanzen , . Beschluß"
+REVIEW,Dieckmann,2,Sieckmann,1,False,Schleswig-Holstein,,
+REVIEW,Dr. Altmejer,2,Dr. Altmeljer,1,False,Rheinland-Pfalz,Vizepräsident,
+REVIEW,Dr. Dahigrün,2,Dr. Dahligrün,2,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrümn,2,Dr. Dahlgrüm,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrünm,2,Dr. Dahlgrüm,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Fülbinger,2,Dr. Fübinger,1,False,,Präsident|Vizepräsident,
+REVIEW,Dr. Fülbinger,2,Filbinger,1,True,,Präsident|Vizepräsident,Präsident
+REVIEW,Dr. h. c. Streibi,2,Dr. h.c. Streibl,1,True,Bayern,,
+REVIEW,Hse Brusis,2,Ise Brusis,2,True,Nordrhein-Westfalen,,
+REVIEW,Hse Brusis,2,Use Brusis,2,True,Nordrhein-Westfalen,,
+REVIEW,Ise Brusis,2,Use Brusis,2,True,Nordrhein-Westfalen,,
+REVIEW,Schäfter,2,Schäftfer,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Von Lautz,2,von Lautfz,1,True,Saarland,,
+REVIEW,Dr. Ekkehard Wienholtz,2,Dr. Ekkehard Wienhoitz,1,True,Schleswig-Holstein,,
+REVIEW,Gerhard Giogowski,2,Gerhard Gilogowski,1,False,,Vizepräsident,
+REVIEW,Gerhard Glogowskl,2,Gerhard Glogowskd,1,False,Niedersachsen,,Vizepräsident
+REVIEW,Cornelia Yzer,2,Cornella Yzer,2,False,Berlin,"Parl. Staatssekretärin beim Bundesminister für Bildung, Wiss","Parl. Staatssekretärin beim Bundesminister für Bildung, Wiss"
+REVIEW,Dr. Arno Walilter,2,Dr. Arno Wailter,1,False,Saarland,Amtierender Präsident|Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Halstenberg,2,Prof. Dr. Halistenberg,1,True,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Dr. Thomas Goppei,2,Dr. Thomas Goppeil,2,True,Bayern,,
+REVIEW,Dr. Hennig Voscherau,2,Dr. Henning-Voscherau,1,True,,Amtierender Präsident|Vizepräsident,Vizepräsident
+REVIEW,Reinhold Bockiet,2,Reinhold Bockliet,2,True,Bayern,,
+REVIEW,Bärbei Höhn,2,BaÈrbel HoÈhn,1,True,Nordrhein-Westfalen,,
+REVIEW,Dipl.-Ing. Schwedier,2,Dipl.-Ing. Schwedlier,1,True,Berlin,Berichterstatter,Berichterstatter
+REVIEW,Dipl.-Ing. Schwedier,2,Schwediler,1,True,Berlin,Berichterstatter,Berichterstatter
+REVIEW,Dr. Dahlgrümn,2,Dr. Dahlgrünmn,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrünm,2,Dr. Dahlgrünmn,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahlgrünm,2,Dr. Dahligrünm,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Dr. Dahligrün,2,Dr. Dahligrünm,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Guthsmuths,2,Dr. Gutsmuths,1,True,Bayern,Berichterstatter,
+LOW-role-conflict,Dr. Lauterbach,2,Lauerbach,1,False,,"Bundesgesundheitsminister. Prof. Dr. Karl Lauterbach, Bundes",Berichterstatter
+REVIEW,Dr. WickIimayr,2,Dr. Wickilmayr,1,True,Saarland,,
+REVIEW,Dr. h. c. Streibi,2,Dr. h. c. Streibli,1,True,Bayern,,
+REVIEW,Ilse Brusis,2,IIse Brusis,1,True,Nordrhein-Westfalen,,
+REVIEW,Ise Brusis,2,IIse Brusis,1,True,Nordrhein-Westfalen,,
+REVIEW,Ilse Brusis,2,Ise Brusis,2,True,Nordrhein-Westfalen,,
+REVIEW,Dr. Lore Marla Peschel-Gutzeit,2,Dr. Lore Marla Peschei-Gutzeit,1,True,Berlin,,
+REVIEW,Bundestagsabgeordneter Jahn,2,Bundestagsabgeordneter Jahnm,1,True,,Berichterstatter,Berichterstatter
+LOW-role-conflict,Arnhold,1,Arnöold,1,True,,Vizepräsident,Präsident
+REVIEW,Arnolp,1,Arnolpd,1,True,,Präsident,Präsident
+REVIEW,Börmner,1,Dr. Börner,1,True,,Präsident,Präsident
+REVIEW,Dr Ehard,1,Dr Enard,1,True,,Präsident,Präsident
+REVIEW,Dr. Dr. Gerekre,1,Dr. Dr. Gerere,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Dr. Dr. Gerere,1,Dr. Dr. Gerexe,1,True,Niedersachsen,,
+REVIEW,Dr. Eisner,1,Dr. Elisner,1,False,,"Senatorin, Gesundheitsbehörde Hessen",
+REVIEW,Dr. Gomoika,1,Dr. Gomolka,1,False,Mecklenburg-Vorpommern,,Amtierender Präsident
+REVIEW,Dr. Langen,1,Dr. Langer,1,False,Rheinland-Pfalz,,Staatssekretär im Bundesministerium für Wirischaft
+REVIEW,Dr. Mafier,1,Dr. Majier,1,True,,Präsident,Präsident
+REVIEW,Dr. Mafier,1,Dr. Matier,1,True,,Präsident,Präsident
+REVIEW,Dr. Maijler,1,Dr. Mailer,1,True,,Präsident,Präsident
+REVIEW,Dr. Majier,1,Dr. Matier,1,True,,Präsident,Präsident
+REVIEW,Dr. Meyvers,1,Meyver,1,False,,Präsident,
+REVIEW,Dr. Müiller,1,Müller,1,False,Baden-Württemberg,Berichterstatter,
+REVIEW,Dr. MülHer,1,Müller,1,False,Baden-Württemberg,,
+REVIEW,Dr. SchedIi,1,Dr. SchedIl,1,True,Bayern,,Berichterstatter
+REVIEW,Dr. SchedIi,1,Dr. Schedil,1,True,Bayern,,Berichterstatter
+REVIEW,Dr. SchedIl,1,Dr. SchediI,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. SchedIl,1,Schedl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. SchediI,1,Dr. Schedil,1,True,Bayern,,Berichterstatter
+REVIEW,Dr. Schedil,1,Schedl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Schlogl,1,Dr. Schlugl,1,False,,,
+REVIEW,Dr. Schlugl,1,Schlögl,1,True,Bayern,,
+REVIEW,Dr. Schulte,1,Dr. Schultz,1,False,,Parl. Staatssekretär beim Bundesminister für Verkehr,
+REVIEW,Dr. Schulte,1,Dr. Schütte,1,False,,Parl. Staatssekretär beim Bundesminister für Verkehr,
+REVIEW,Dr. Schultz,1,Schuliz,1,False,Thüringen,,
+LOW-role-conflict,Dr. Schäter,1,Prof. Dr. Schäfer,1,True,,Staatssekretär im Bundesministerium des Innern,Staatssekretär im Bundesministerium für Angelegenheiten des 
+LOW-role-conflict,Dr. Wetzel,1,Wenzel,1,True,,Staatssekretär des Bundesministeriums der Verteidigung,Bundesministerium für Wirtschaft und Klimaschutz. – Sie habe
+REVIEW,Dr. Ziller,1,Hiller,1,False,,Staatssekretär im Bundesministerium für Forschung und Techno,
+REVIEW,Dr. Zimmmer,1,Zimmer,1,True,Rheinland-Pfalz,Berichterstatter,
+REVIEW,Elinert,1,Elnert,1,True,Nordrhein-Westfalen,,
+REVIEW,Graaffi,1,Graafi,1,False,,Berichterstatter,
+REVIEW,Graafi,1,Graafif,1,True,Niedersachsen,,
+REVIEW,Kuster,1,Kuüster,1,False,,,
+LOW-role-conflict,Pfeifer,1,Pfeiter,1,True,,"Parl. Staatssekretär beim Bundesminister für Jugend, Familie",Parl. Staatssekretär beim Bundesminister für Bildung und Wis
+REVIEW,Schiee,1,Schilee,1,True,Baden-Württemberg,,
+REVIEW,Schlei,1,Schlel,1,True,,Parl. Staatssekretär beim Bundeskanzler,Parl. Staatssekretär beim Bundeskanzler
+REVIEW,Schuliz,1,Schüfiz,1,False,Hamburg,,Vizepräsident
+REVIEW,Wiiilms,1,Wililms,1,True,Bremen,,
+REVIEW,Wilheim,1,Wilhelm,1,True,Rheinland-Pfalz,,
+REVIEW,Wililms,1,Wilims,1,True,Bremen,,
+REVIEW,Wimmer,1,Zimmer,1,False,,Parl. Staatssekretär beim Bundesminister der Verteidigung,
+REVIEW,Wohlee,1,Wohler,1,True,,,
+REVIEW,Ystrum,1,Yström,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Ystrum,1,Ystrüum,1,True,Bremen,Berichterstatter,
+REVIEW,Alymeier,1,Dr. Alimeier,1,True,,Präsident,Präsident
+REVIEW,DBufhues,1,DBuihues,1,True,Nordrhein-Westfalen,Berichterstatter,
+REVIEW,Dr. Dr. Gerekre,1,Dr. Dr. Gerekrke,1,True,Niedersachsen,Berichterstatter,
+REVIEW,Dr. Griesau,1,Dr. Grilesau,1,True,,"Staatssekretär im Bundesministerium für Ernährung, Landwirts","Staatssekretär im Bundesministerium für Ernährung, Landwirts"
+REVIEW,Dr. Laufter,1,Dr. Lauftfer,1,True,Niedersachsen,,
+LOW-role-conflict,Dr. Schakfer,1,Prof. Dr. Schäfer,1,False,Schleswig-Holstein,Berichterstatter,Staatssekretär im Bundesministerium für Angelegenheiten des 
+REVIEW,Dr. Schlogl,1,Dr. Schlögel,1,False,,,
+REVIEW,Dr. Schlogl,1,Dr. Schlüögl,1,False,,,Berichterstatter
+REVIEW,Dr. Schlugl,1,Dr. Schlüögl,1,True,Bayern,,Berichterstatter
+REVIEW,Dr. Schlögel,1,Schlögl,1,True,Bayern,,
+REVIEW,Dr. Schlüögl,1,Schlögl,1,True,Bayern,Berichterstatter,
+REVIEW,Dr. Selifriz,1,Seifriz,1,False,Baden-Württemberg,,
+REVIEW,Dr. Walimann,1,Wallmann,1,True,,Präsident,Präsident
+REVIEW,Dr. Bortftscheller,1,Dr. Bortitscheller,1,True,Bremen,Berichterstatter,Berichterstatter
+REVIEW,Dr. Gebbhard Müller,1,Dr. Gebhärd Müller,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Dr. Gebhärd Müller,1,Dr. Gebtard Müller,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Dr. Gebhärd Müller,1,Dr. Gerhard Müller,1,True,,Vizepräsident,
+REVIEW,Dr. Gebtard Miller,1,Dr. Gebtard Müller,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Dr. Gebtard Müller,1,Dr. Gebtiard Müller,1,True,,Vizepräsident,Vizepräsident
+LOW-role-conflict,Dr. Hennlng Scherf,1,Dr. Hennlngj Scherf,1,True,,Vizepräsident,Amtierender Präsident
+REVIEW,Dr. Schiegelberger,1,Dr. Schliegelberger,1,True,Schleswig-Holstein,,
+REVIEW,Dr. Werner Tegtmeier,1,Dr. Werner Tegtmeler,1,True,,Staatssekretär im Bundesministerium für Arbeit und Sozialord,Staatssekretär im Bundesministerium für Arbeit und Sozialord
+REVIEW,Fiorian Gerster,1,Fliorian Gerster,1,True,Rheinland-Pfalz,,Berichterstatter
+REVIEW,Gerhard Schöder,1,Gerhärd Schröder,1,True,,Präsident,Präsident
+REVIEW,Rainer Brüderle,1,Rainer Brüderlie,1,False,,,
+LOW-role-conflict,Büch,1,Dr. Busch,1,True,,Senator Hessen,Staatssekretär im Bundesministerium für wirtschaftlichen Bes
+LOW-role-conflict,D. Ehard,1,Dr. Ehand,1,True,,Vizepräsident,Präsident
+LOW-role-conflict,D. Ehard,1,Dr. Fhard,1,True,,Vizepräsident,Präsident
+REVIEW,Dr. Born,1,Dr. Zorn,1,False,Mecklenburg-Vorpommern,Berichterstatter,
+REVIEW,Dr. Dudfk,1,Dudek,1,True,Hamburg,Berichterstatter,
+REVIEW,Dr. Heid,1,Heil,1,False,Bayern,,"Bundesministerium für Arbeit und Soziales. Hubertus Heil, Bu"
+LOW-role-conflict,Dr. Kopf,1,Kofpf,1,True,,Vizepräsident,Präsident
+LOW-role-conflict,Dr. Kopf,1,Konf,1,True,,Vizepräsident,Präsident
+REVIEW,Dr. Kopf,1,Kopfi,1,False,,Vizepräsident,
+REVIEW,Dr. Kopf,1,Koptf,1,False,,Vizepräsident,
+REVIEW,Dr. Kopf,1,Xopf,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Dr. Lang,1,Dr. Lange,1,False,Hessen,Berichterstatter,
+REVIEW,Dr. Mader,1,Dr. Maler,1,True,,Präsident,Präsident
+REVIEW,Dr. Seidi,1,Dr. SeldI,1,True,Bayern,,
+REVIEW,Dr. Seidi,1,Seidl,1,False,Bayern,,Berichterstatter
+REVIEW,Dr. Vogef,1,Dr. Voget,1,True,,Präsident,Präsident
+LOW-role-conflict,Dr. Vogef,1,Voget,1,True,,Präsident,Staatsminister beim Bundeskanzler
+REVIEW,Dr. Zienn,1,Dr. Ziunn,1,True,,Präsident,Präsident
+REVIEW,Gaul,1,Gaus,1,False,Schleswig-Holstein,,Staatssekretär im Bundeskanzleramt
+REVIEW,Kluse,1,Klöse,1,True,,Präsident,Präsident
+LOW-role-conflict,Kofpf,1,Köpf,1,True,,Präsident,Vizepräsident
+LOW-role-conflict,Konf,1,Köpf,1,True,,Präsident,Vizepräsident
+REVIEW,Kopfi,1,Köpf,1,False,Niedersachsen,,Vizepräsident
+REVIEW,Koptf,1,Köpf,1,False,Niedersachsen,,Vizepräsident
+REVIEW,Köpf,1,Xopf,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Stoos,1,Stoss,1,True,,,
+LOW-role-conflict,D. Ehard,1,Dr. EFhard,1,True,,Vizepräsident,Präsident
+LOW-role-conflict,D. Ehard,1,Dr. Eharpd,1,True,,Vizepräsident,Präsident
+REVIEW,Dr. Dudeck,1,Dudek,1,True,Hamburg,,
+REVIEW,Dr. EFhard,1,Dr. Fhard,1,True,,Präsident,Präsident
+REVIEW,Dr. KLein,1,Dr. Kilein,1,True,Berlin,,Berichterstatter
+REVIEW,Dr. Lange,1,Dr. Langen,1,False,Hamburg,,
+REVIEW,Dr. Lange,1,Dr. Langer,1,False,Hamburg,,Staatssekretär im Bundesministerium für Wirischaft
+REVIEW,Dr. Mailer,1,Dr. Maler,1,True,,Präsident,Präsident
+REVIEW,Dr. Müher,1,Dr. MülHer,1,True,Baden-Württemberg,,
+REVIEW,Dr. Riedi,1,Dr. Riedil,1,True,,Parl. Staatssekretär beim Bundesminister für Wirtschaft,Parl. Staatssekretär beim Bundesminister für Wirtschaft
+REVIEW,Dr. Voget,1,Dr. Vogetl,1,True,,Präsident,Präsident
+LOW-role-conflict,Dr. Vogetl,1,Voget,1,True,,Präsident,Staatsminister beim Bundeskanzler
+REVIEW,Dr. Wetitz,1,Dr. Wettz,1,True,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Werltz,1,Werlz,1,False,Nordrhein-Westfalen,Berichterstatter,Berichterstatter
+REVIEW,Altmetier,1,Dr. Altmeter,1,True,,Vizepräsident,Vizepräsident
+LOW-role-conflict,Dr. Amo Waiter,1,Dr. Amo Watter,1,True,,Berichterstatter,Amtierender Präsident
+REVIEW,Dr. Tilbinger,1,Filbinger,1,True,,Präsident,Präsident
+REVIEW,Hemifiler,1,Hemifler,1,True,Hessen,,
+REVIEW,Schäftfer,1,Schättfer,1,True,,Bundesminister der Finanzen,Bundesminister der Finanzen
+REVIEW,Sieckmann,1,Speckmänn,1,False,Thüringen,,"Senator für die Finanzen Löbert, Senator für Inneres Hamburg"
+REVIEW,von Laufz,1,von Lautfz,1,True,Saarland,,
+REVIEW,Ise Ridder-Melchers,1,Use Ridder-Melchers,1,True,Nordrhein-Westfalen,,
+REVIEW,Use Ridder-Meichers,1,Use Ridder-Melchers,1,True,Nordrhein-Westfalen,,
+REVIEW,IIse Ridder-Melchers,1,Ise Ridder-Melchers,1,True,Nordrhein-Westfalen,,
+REVIEW,IIse Ridder-Melchers,1,Itse Ridder-Melchers,1,True,Nordrhein-Westfalen,,
+REVIEW,Ise Ridder-Melchers,1,Itse Ridder-Melchers,1,True,Nordrhein-Westfalen,,
+REVIEW,Bernd Kränzie,1,Bernd Kränzle,1,True,Bayern,,
+REVIEW,Dr. Erwin Teufel,1,Erwin Teufei,1,False,Baden-Württemberg,,Präsident
+REVIEW,Dr. Erwin Teufel,1,Erwin Teufeil,1,True,Baden-Württemberg,,
+LOW-role-conflict,Dr. Kurt Schelter,1,Prof. Dr. Kurt Scheiter,1,True,,Staatssekretär im Bundesministerium des Innern,Staatssekretär im Bundesministrium des Innern
+REVIEW,Dr. Stoltenherg,1,Stoltenberg,1,True,,Präsident,Präsident
+REVIEW,Erwin Teufei,1,Erwin Teufeil,1,False,,Präsident,
+REVIEW,Gustav Wahro,1,Gustav Wapro,1,False,,"Staatssekretär, Bevollmächtigter des Landes Baden-Württember",
+REVIEW,Heidrun Merk,1,Heldrun Merk,1,True,Niedersachsen,,
+REVIEW,Ilse Stiewitt,1,Ise Stiewitt,1,True,Hessen,,
+LOW-role-conflict,Kaltenstroth,1,Kattenstroth,1,True,,Staatssekretär des Bundesministeriums für Arbeit und Sozialo,Staatssekretär des Bundesministeriums für Arbeit und Sozialo
+REVIEW,Neuenkircie,1,Neuenkircih,1,True,Hamburg,Berichterstatter,Berichterstatter
+LOW-role-conflict,Rudoif Kraus,1,Rudolf Kraus,1,True,,Parl. Staatssekretär beim Bundesminister für Arbeit und Sozi,Parl. Staatssekretär beim Bundesministerium für Arbeit und S
+REVIEW,Sioltenberg,1,Stoltenberg,1,True,,Präsident,Präsident
+REVIEW,D. Dr. Gerstenmailer,1,D. Dr. Gerstenmaler,1,True,,Präsident,Präsident
+REVIEW,Dr. Gbhard Müller,1,Dr. Gebhärd Müller,1,True,,Vizepräsident,Vizepräsident
+REVIEW,Dr. NOLTING-Hauff,1,Dr. Nolting-Haufif,1,True,Bremen,,Berichterstatter
+LOW-role-conflict,Kattenstroth,1,Kattenstrotih,1,True,,Staatssekretär des Bundesministeriums für Arbeit und Sozialo,Staatssekretär des Bundesministeriums für Arbeit und Sozialo
+REVIEW,Peter Zumkiey,1,Peter Zumkliey,1,True,Hamburg,,
+REVIEW,Ritier Von Lex,1,Rititer von Lex,1,True,,Staatssekretär im Bundesministerium des Innern,Staatssekretär im Bundesministerium des Innern
+REVIEW,Dr. Friedheilm Repnik,1,Dr. Friedheim Repnik,1,True,Baden-Württemberg,,
+REVIEW,Dipl.-Ing. Schwedlier,1,Schwedier,1,True,Berlin,Berichterstatter,Berichterstatter
+REVIEW,Dr. Filbingqer,1,Filbinger,1,True,,Präsident,Präsident
+REVIEW,Dr. Filbinuger,1,Filbinger,1,True,,Präsident,Präsident
+REVIEW,Dr. Filkbinger,1,Filbinger,1,False,Baden-Württemberg,,Präsident
+REVIEW,Dr. Heimut Kohl,1,Dr. Helmut Kohl,1,True,,Bundeskanzler,Bundeskanzler
+REVIEW,Dr. Sieverking,1,Dr. Sievexking,1,True,,Präsident,Präsident
+REVIEW,Dr. Sieverking,1,Sieveking,1,True,,Präsident,Präsident
+REVIEW,Dr. Sievexking,1,Sieveking,1,True,,Präsident,Präsident
+REVIEW,Dr. Susterhenn,1,Dr. Sustfrhenn,1,True,Rheinland-Pfalz,,
+REVIEW,Dr. Susterhenn,1,Dr. Süsteryenn,1,True,Rheinland-Pfalz,,
+REVIEW,Dr. h. c. Streibli,1,Dr. h.c. Streibl,1,True,Bayern,,
+REVIEW,Hans Elchei,1,Hans Elchel,1,False,Hessen,,Präsident
+REVIEW,Kroilmann,1,Krolilmann,1,True,Hessen,,
+REVIEW,Schwedier,1,Schwediler,1,True,Berlin,Berichterstatter,Berichterstatter
+LOW-role-conflict,Wildermute,1,Wildermutw,1,True,,Bundesminister für WohnungSbau,Bundesminister für Wohnungsbau
+REVIEW,Dr. Heilmut Kohl,1,Dr. Heimut Kohl,1,True,,Bundeskanzler,Bundeskanzler
+REVIEW,Dr. Heilmut Kohl,1,Dr. Helmut Kohl,1,True,,Bundeskanzler,Bundeskanzler
+REVIEW,Dr. Susterhenn,1,Dr. Suüsterhenn,1,True,Rheinland-Pfalz,,
+REVIEW,Dr. Lore Marla Peschei-Gutzeit,1,Dr. Lore-Maria Peschei-Gutzeit,1,False,Berlin,,
+REVIEW,Bundestagsabgeordneter Seidl,1,EBundestagsabgeordneter Seidl,1,True,,Berichterstatter,Berichterstatter

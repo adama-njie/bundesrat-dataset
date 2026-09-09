@@ -1,0 +1,16 @@
+# Text extraction
+pdfminer.six
+
+# OCR fallback for image-only scanned PDFs (1949–1999 sessions)
+# pymupdf (fitz) renders PDF pages to images; pytesseract wraps the Tesseract
+# binary; Pillow handles the image objects. The tesseract binary itself and the
+# German language data (deu.traineddata) must be provided by the system
+# (RWTH module 'poppler'/'tesseract' or a conda env) — they are not pip packages.
+pymupdf
+pytesseract
+Pillow
+
+# Dataset packaging (br_03_build_dataset.py) — usually run locally, not on the HPC
+pandas
+pyarrow
+gender_guesser>=0.4.0

@@ -1,7 +1,7 @@
 # The Bundesrat Corpus — extraction and attribution pipeline
 
-Code that turns the German **Bundesrat** (Federal Council) *Plenarprotokolle* —
-plenary transcripts from session 1 in 1949 to the present — into a structured,
+Code that turns the German **Bundesrat** (Federal Council) *Plenarprotokolle* 
+plenary transcripts from session 1 in 1949 to the present into a structured,
 speaker-attributed speech corpus.
 
 The Bundesrat is a permanent body with continuous session numbering, so there

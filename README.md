@@ -144,7 +144,7 @@ dataset.
 If you use the corpus or this pipeline, please cite the dataset:
 
 > Njie, A., Laperne, L., Torkayesh, A., & Venghaus, S. (2026). *The Bundesrat
-> Corpus: speaker and Bundesland-attributed proceedings of the German Federal
+> Corpus: speaker-attributed proceedings of the German Federal
 > Council, 1949–2026* (v1) [Data set]. Zenodo.
 > https://doi.org/10.5281/zenodo.22086439
 

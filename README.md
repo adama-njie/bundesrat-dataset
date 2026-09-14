@@ -22,11 +22,12 @@ are no *Wahlperioden* to slice on. Its members represent the 16 German
 A member who cannot attend may give a statement *zu Protokoll*: it is printed in
 the sitting's appendix and marked in the protocol's own index with an asterisked
 page reference, but it was never said aloud. Both kinds live in `speeches`,
-separated by `contribution_type`. Written statements only begin in the 1970s, so
-a time series must filter to `contribution_type == "spoken"` or it picks up a
-step change that reflects the practice starting rather than the chamber
-changing. Every recall and error figure quoted here is measured on the spoken
-subset.
+separated by `contribution_type`. Written statements are negligible before 1970
+(44 in the whole of the 1960s, three quarters of them in 1968–69) and routine
+afterwards, so a time series must filter to `contribution_type == "spoken"` or
+it picks up a step change that reflects the practice taking hold rather than the
+chamber changing. Every recall and error figure quoted here is measured on the
+spoken subset.
 
 ## The dataset lives on Zenodo, not here
 

@@ -689,7 +689,7 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "presiding_land", "type": "string", "description": "Bundesland holding the Bundesrat presidency at this sitting. The presidency rotates annually among the Ministerpräsidenten (Königsteiner Vereinbarung). Derived from the corpus itself — the chair's resolved person and their modal Land — not from an external rotation calendar. Null where it could not be established."},
                         {"name": "engine",      "type": "string",  "description": "Extraction engine: 'pdftotext' (born-digital 2000+), 'pdftotext-raw', 'pdfminer', or 'ocr-tesseract' (scanned 1949–1999). Flags lower-quality (OCR) sessions."},
                         {"name": "n_speeches",  "type": "integer", "description": "Number of SPOKEN speeches in this session. Written statements are counted separately in n_written_statements, so that speeches-per-session keeps one meaning across the whole period. n_speeches + n_written_statements is the number of rows in speeches.parquet for this session."},
-                        {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing and printed in the Anlagen of this sitting, with a named author. Zero before the 1970s, when the practice begins."},
+                        {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing and printed in the Anlagen of this sitting, with a named author. Negligible before 1970 (44 in the whole of the 1960s, three quarters of them in 1968-69) and routine from the 1970s onward."},
                         {"name": "n_documents_excluded", "type": "integer", "description": "Appendix items in this sitting that were NOT published: Umdruck sheets, Drucksachen and committee business, which have no personal author in the source and are therefore neither speech nor anyone's contribution. Recorded so the exclusion is visible per sitting rather than only in the paper."},
                     ],
                 },
@@ -724,7 +724,7 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "speaker_raw", "type": "string",  "description": "Raw attribution string as matched by br_02."},
                         {"name": "role",        "type": "string",  "description": "Parliamentary/official role: 'Präsident', 'Vizepräsident', 'Bundesminister der Finanzen', etc. Null for plain state representatives."},
                         {"name": "land",        "type": "string",  "description": "Bundesland the speaker represents — one of 19 values: the 16 current Länder plus Baden, Württemberg-Baden and Württemberg-Hohenzollern, which merged into Baden-Württemberg in 1952. See laender.csv. Null for the presiding officer and federal officials."},
-                        {"name": "contribution_type", "type": "string", "description": "'spoken' — delivered in the chamber. 'written' — a statement submitted to the record (\"zu Protokoll gegeben\") and printed in the Anlagen, never spoken; its author is named in the appendix header. 'document' — appendix material whose header names no author: anonymous statements on an agenda item, and papers circulated to the chamber. The distinction between 'written' and 'document' records WHETHER THE RECORD NAMES AN AUTHOR, not a judgement about content. Every 'spoken' and 'written' row carries a name; 'document' rows carry none by definition. Written statements and documents exist from the 1970s onward; filter on 'spoken' to reproduce the validated series."},
+                        {"name": "contribution_type", "type": "string", "description": "'spoken' — delivered in the chamber. 'written' — a statement submitted to the record (\"zu Protokoll gegeben\") and printed in the Anlagen, never spoken; its author is named in the appendix header. 'document' — appendix material whose header names no author: anonymous statements on an agenda item, and papers circulated to the chamber. The distinction between 'written' and 'document' records WHETHER THE RECORD NAMES AN AUTHOR, not a judgement about content. Every 'spoken' and 'written' row carries a name; 'document' rows carry none by definition. Written statements are negligible before 1970 and become routine from the 1970s onward; filter on 'spoken' to reproduce the validated series."},
                         {"name": "text",        "type": "string",  "description": "Full text (German). OCR sessions (1949–1999) may contain minor character errors."},
                         {"name": "char_offset", "type": "integer", "description": "Character offset of the speech start in the cleaned session text."},
                     ],
@@ -797,8 +797,8 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "land",       "type": "string",  "description": "Canonical Bundesland name, as used in speeches.land and sessions.presiding_land."},
                         {"name": "first_year", "type": "integer", "description": "First year this Land is OBSERVED in the corpus — not its constitutional founding date. The observed spans reproduce the territorial history unprompted, which is what makes the field self-validating."},
                         {"name": "last_year",  "type": "integer", "description": "Last year this Land is observed. 1952 for the three historical Länder; the final corpus year for the rest."},
-                        {"name": "n_speeches", "type": "integer", "description": "SPOKEN speeches attributed to a delegate of this Land. Counted on contribution_type = 'spoken' so the figure means the same thing across the whole period, since written statements only begin in the 1970s."},
-                        {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing by a delegate of this Land. Zero before the 1970s. n_speeches + n_written_statements is the number of rows in speeches.parquet carrying this land."},
+                        {"name": "n_speeches", "type": "integer", "description": "SPOKEN speeches attributed to a delegate of this Land. Counted on contribution_type = 'spoken' so the figure means the same thing across the whole period, since written statements are negligible before 1970 and routine afterwards."},
+                        {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing by a delegate of this Land. Negligible before 1970. n_speeches + n_written_statements is the number of rows in speeches.parquet carrying this land."},
                         {"name": "n_sessions", "type": "integer", "description": "Distinct sessions in which a delegate of this Land spoke or submitted a statement."},
                         {"name": "historic",   "type": "boolean", "description": "True for Baden, Württemberg-Baden and Württemberg-Hohenzollern, dissolved into Baden-Württemberg on 25 April 1952. They are kept under their own names rather than folded into the successor, which would rewrite the 1949-52 delegations."},
                     ],
@@ -1116,8 +1116,8 @@ def main() -> None:
     #
     # ⚠️ `n_speeches` counts SPOKEN turns only, and written statements are
     # counted separately. Folding them together would silently change what
-    # "speeches per session" means, and would do so only from the 1970s — when
-    # the practice of submitting to the record begins — producing a step change
+    # "speeches per session" means, and would do so only from about 1970 — when
+    # submitting to the record stops being a rarity — producing a step change
     # that looks historical and is not.
     _ct = (speeches_df.groupby(["session_id", "contribution_type"]).size()
            .unstack(fill_value=0))
@@ -1362,7 +1362,7 @@ def main() -> None:
     # would destroy that property.
     #
     # ⚠️ n_speeches counts SPOKEN rows only, and that is deliberate now that both
-    # kinds share a table: written statements begin in the 1970s, so a combined
+    # kinds share a table: written statements are rare before 1970, so a combined
     # count would not mean the same thing in 1950 as in 2020. The written total
     # is carried alongside it rather than folded in.
     _land_src = speeches_df[speeches_df["land"].notna()]

@@ -70,37 +70,41 @@ plt.rcParams.update({
 # ⚠️ Order matters, and the trap is the same one br_02 hit: "Bundestagspräsident"
 # and "Bundespräsident" both contain "präsident", so they must be tested BEFORE
 # the Präsidium rule or they are silently folded into the chair of this chamber.
+#
+# Labels are English because the figures and tables are read by an
+# English-language audience; the German office nouns they stand for are given in
+# the paper's own description of the categories.
 _CATEGORY_RULES: list[tuple[str, str]] = [
-    ("Bundeskanzler/in",       r"Bundeskanzler"),
-    ("Bundespräsident/in",     r"Bundespr[äa]sident"),
-    ("Bundestag",              r"Bundestag"),
-    ("Präsidium",              r"pr[äa]sident"),
-    ("Bundesminister/in",      r"Bundesminister"),
-    ("Staatssekretär/in",      r"Staatssekret|Staatssekr\."),
-    ("Berichterstatter/in",    r"Berichterstatter"),
-    ("Schriftführer/in",       r"Schriftf[üu]hrer"),
-    ("Landesregierung",        r"Staatsminister|Senator|Landesminister|B[üu]rgermeister|^Minister"),
+    ("Federal chancellor",     r"Bundeskanzler"),
+    ("Federal president",      r"Bundespr[äa]sident"),
+    ("Bundestag member",       r"Bundestag"),
+    ("Presiding chair",        r"pr[äa]sident"),
+    ("Federal minister",       r"Bundesminister"),
+    ("State secretary",        r"Staatssekret|Staatssekr\."),
+    ("Rapporteur",             r"Berichterstatter"),
+    ("Clerk",                  r"Schriftf[üu]hrer"),
+    ("Land government",        r"Staatsminister|Senator|Landesminister|B[üu]rgermeister|^Minister"),
 ]
 _COMPILED = [(lbl, re.compile(pat, re.I)) for lbl, pat in _CATEGORY_RULES]
 
 # A speech with NO role but a Bundesland is a state delegate speaking for their
 # Land — the Bundesrat's structural equivalent of an ordinary MdB, and a third
 # of the corpus. It has no Bundestag counterpart, so it needs its own label.
-CAT_DELEGATE = "Ländervertreter/in"
-CAT_OTHER = "Sonstige"
+CAT_DELEGATE = "Land delegate"
+CAT_OTHER = "Other"
 
 ALL_CATEGORIES = [
-    "Präsidium", CAT_DELEGATE, "Berichterstatter/in", "Bundesminister/in",
-    "Staatssekretär/in", "Landesregierung", "Bundeskanzler/in",
-    "Bundespräsident/in", "Bundestag", "Schriftführer/in", CAT_OTHER,
+    "Presiding chair", CAT_DELEGATE, "Rapporteur", "Federal minister",
+    "State secretary", "Land government", "Federal chancellor",
+    "Federal president", "Bundestag member", "Clerk", CAT_OTHER,
 ]
 
 _CAT_COLORS = {
-    "Präsidium": "#3d6f8e", CAT_DELEGATE: "#c1666b",
-    "Berichterstatter/in": "#7a9e7e", "Bundesminister/in": "#d99a4e",
-    "Staatssekretär/in": "#e3c26f", "Landesregierung": "#8c7aa8",
-    "Bundeskanzler/in": "#16202b", "Bundespräsident/in": "#5b8fa8",
-    "Bundestag": "#a8a8a8", "Schriftführer/in": "#cfcfcf", CAT_OTHER: "#e8e8e8",
+    "Presiding chair": "#3d6f8e", CAT_DELEGATE: "#c1666b",
+    "Rapporteur": "#7a9e7e", "Federal minister": "#d99a4e",
+    "State secretary": "#e3c26f", "Land government": "#8c7aa8",
+    "Federal chancellor": "#16202b", "Federal president": "#5b8fa8",
+    "Bundestag member": "#a8a8a8", "Clerk": "#cfcfcf", CAT_OTHER: "#e8e8e8",
 }
 
 HISTORIC_LAENDER = {"Baden", "Württemberg-Baden", "Württemberg-Hohenzollern"}
@@ -311,8 +315,6 @@ def fig_categories(sp, figdir: Path):
     ax.set_ylim(0, 100)
     ax.legend(frameon=False, fontsize=7.5, ncol=2, loc="upper center",
               bbox_to_anchor=(0.5, -0.12))
-    ax.set_title("Who speaks in the Bundesrat, by decade",
-                 loc="left", fontsize=10, weight="bold", pad=8)
     _save(fig, "fig5_speaker_categories", figdir)
 
 
@@ -322,32 +324,33 @@ def fig_gender(sp, figdir: Path):
         x = sp[sp.decade == d]
         if not len(x):
             continue
+        n_f = int((x.gender == "female").sum())
+        n_m = int((x.gender == "male").sum())
+        # Unknown is the RESIDUAL, not a `== "unknown"` test: the field is null
+        # where the protocol marks the speaker nowhere, so a string comparison
+        # would silently return zero for every decade.
         rows.append((d, (x.gender == "female").mean() * 100,
-                     int((x.gender == "female").sum()),
-                     int((x.gender == "male").sum())))
+                     n_f, n_m, len(x) - n_f - n_m))
     lab = [r[0] for r in rows]
-    fig, (a1, a2) = plt.subplots(1, 2, figsize=(9.2, 3.4))
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(7.6, 3.4))
     a1.plot(lab, [r[1] for r in rows], "o-", color=FEM_C, lw=1.8, ms=4)
     a1.set_ylabel("Women's share of speeches (%)")
     a1.set_ylim(0, max(r[1] for r in rows) * 1.18)
-    a1.set_title("Share", loc="left", fontsize=9, weight="bold")
     for x_, y_ in zip(lab, [r[1] for r in rows]):
         a1.annotate(f"{y_:.1f}", (x_, y_), textcoords="offset points",
                     xytext=(0, 6), ha="center", fontsize=7.5)
-    w = 0.38
+    w = 0.27
     idx = np.arange(len(rows))
-    a2.bar(idx - w / 2, [r[2] for r in rows], w, label="female", color=FEM_C, linewidth=0)
-    a2.bar(idx + w / 2, [r[3] for r in rows], w, label="male", color=MASC_C, linewidth=0)
+    a2.bar(idx - w, [r[2] for r in rows], w, label="female", color=FEM_C, linewidth=0)
+    a2.bar(idx, [r[3] for r in rows], w, label="male", color=MASC_C, linewidth=0)
+    a2.bar(idx + w, [r[4] for r in rows], w, label="unknown", color=GREY, linewidth=0)
     a2.set_xticks(idx); a2.set_xticklabels(lab)
     a2.set_ylabel("Speeches")
     a2.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{int(v):,}"))
     a2.legend(frameon=False, fontsize=8)
-    a2.set_title("Counts", loc="left", fontsize=9, weight="bold")
     for a in (a1, a2):
         a.tick_params(axis="x", labelrotation=45)
-    fig.suptitle("Women in the Bundesrat, 1949–2026", x=0.005, ha="left",
-                 fontsize=10, weight="bold")
-    fig.tight_layout(rect=[0, 0, 1, 0.93])
+    fig.tight_layout()
     _save(fig, "fig6_gender", figdir)
 
 
@@ -367,8 +370,6 @@ def fig_completeness(comp, figdir: Path):
     ax.set_ylim(0, 105)
     ax.tick_params(axis="x", labelrotation=45)
     ax.legend(frameon=False, fontsize=7.5, ncol=2)
-    ax.set_title("Field completeness and measured recall, by decade",
-                 loc="left", fontsize=10, weight="bold", pad=8)
     _save(fig, "fig7_completeness", figdir)
 
 
@@ -379,12 +380,13 @@ def fig_completeness(comp, figdir: Path):
 # events must peak in the decade the event happened. It tests the whole pipeline
 # end to end in a way no internal consistency check can.
 _EVENT_KEYWORDS: list[tuple[str, str]] = [
-    ("Flucht und Vertreibung", r"Fl[üu]chtling"),
-    ("Wiedervereinigung",      r"Wiedervereinigung|Deutsche[nr]?\s+Einheit"),
-    ("Währungsunion / Euro",   r"W[äa]hrungsunion|Euro-Einf|Euroeinf"),
-    ("Finanzkrise",            r"Finanzkrise|Bankenkrise|Finanzmarktkrise"),
-    ("Klimaschutz",            r"Klimawandel|Klimaschutz|Klimakrise"),
-    ("COVID-19",               r"COVID|Pandemie|Coronavirus|SARS-CoV"),
+    # The label is English, the pattern is the German it actually searches for.
+    ("Refugees",             r"Fl[üu]chtling"),
+    ("Reunification",        r"Wiedervereinigung|Deutsche[nr]?\s+Einheit"),
+    ("Monetary union, euro", r"W[äa]hrungsunion|Euro-Einf|Euroeinf"),
+    ("Financial crisis",     r"Finanzkrise|Bankenkrise|Finanzmarktkrise"),
+    ("Climate policy",       r"Klimawandel|Klimaschutz|Klimakrise"),
+    ("COVID-19",             r"COVID|Pandemie|Coronavirus|SARS-CoV"),
 ]
 _EVENT_COLORS = ["#8c7aa8", "#c1666b", "#d99a4e", "#7a9e7e", "#3d6f8e", "#16202b"]
 
@@ -436,8 +438,6 @@ def fig_events(sp, figdir: Path):
     ax.set_ylabel("Share of speeches mentioning the topic (%)")
     ax.tick_params(axis="x", labelrotation=45)
     ax.legend(frameon=False, fontsize=8, ncol=2)
-    ax.set_title("Datable events appear when they happened",
-                 loc="left", fontsize=10, weight="bold", pad=8)
     fig.text(0.005, -0.06,
              "An external-validity check, not a finding: vocabulary tied to "
              "datable events must peak in the decade the event occurred.",
@@ -460,14 +460,12 @@ def check_skeleton(sp, se, pe, skeleton: Path) -> int:
     # which is right for every figure in this module and wrong for the paper's
     # headline counts — those are corpus-wide. Checking the filtered frame
     # reported the skeleton as drifted when it was correct.
-    # ⚠️ Contributions span TWO tables since the spoken/written split: reading
-    # speeches.parquet alone (now spoken-only) reported the skeleton as drifted
-    # when it was correct. `sp` here is already spoken-only, which is right for
-    # every figure in this module and wrong for the paper's corpus-wide counts.
-    spoken = pd.read_parquet(DEFAULT_DATASET / "speeches.parquet")
-    wpath = DEFAULT_DATASET / "written_statements.parquet"
-    written = pd.read_parquet(wpath) if wpath.exists() else spoken.iloc[0:0]
-    both = pd.concat([spoken, written], ignore_index=True)
+    # Spoken and written share ONE table again, separated by contribution_type,
+    # so the corpus-wide count is simply the row count and the spoken series is
+    # a filter on it.
+    both = pd.read_parquet(DEFAULT_DATASET / "speeches.parquet")
+    spoken = both[both["contribution_type"] == "spoken"]
+    written = both[both["contribution_type"] == "written"]
     words = both["text"].fillna("").str.split().str.len()
     spoken_words = spoken["text"].fillna("").str.split().str.len()
     expect = {

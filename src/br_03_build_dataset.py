@@ -688,7 +688,7 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "md5",         "type": "string",  "description": "MD5 of the source PDF."},
                         {"name": "presiding_land", "type": "string", "description": "Bundesland holding the Bundesrat presidency at this sitting. The presidency rotates annually among the Ministerpräsidenten (Königsteiner Vereinbarung). Derived from the corpus itself — the chair's resolved person and their modal Land — not from an external rotation calendar. Null where it could not be established."},
                         {"name": "engine",      "type": "string",  "description": "Extraction engine: 'pdftotext' (born-digital 2000+), 'pdftotext-raw', 'pdfminer', or 'ocr-tesseract' (scanned 1949–1999). Flags lower-quality (OCR) sessions."},
-                        {"name": "n_speeches",  "type": "integer", "description": "Number of SPOKEN speeches in this session. Written statements are counted separately in n_written_statements, so that speeches-per-session keeps one meaning across the whole period."},
+                        {"name": "n_speeches",  "type": "integer", "description": "Number of SPOKEN speeches in this session. Written statements are counted separately in n_written_statements, so that speeches-per-session keeps one meaning across the whole period. n_speeches + n_written_statements is the number of rows in speeches.parquet for this session."},
                         {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing and printed in the Anlagen of this sitting, with a named author. Zero before the 1970s, when the practice begins."},
                         {"name": "n_documents_excluded", "type": "integer", "description": "Appendix items in this sitting that were NOT published: Umdruck sheets, Drucksachen and committee business, which have no personal author in the source and are therefore neither speech nor anyone's contribution. Recorded so the exclusion is visible per sitting rather than only in the paper."},
                     ],
@@ -697,7 +697,14 @@ def _make_datapackage(version: str) -> dict:
             {
                 "name": "speeches", "path": "speeches.parquet",
                 "mediatype": "application/vnd.apache.parquet",
-                "description": "One row per attributed speech, including full text.",
+                "description": (
+                    "One row per attributed contribution by a named member, "
+                    "including full text. `contribution_type` says how it reached "
+                    "the record: 'spoken' (delivered in the chamber) or 'written' "
+                    "(submitted to the record and printed in the Anlagen, never "
+                    "spoken). Filter to 'spoken' to reproduce the series the "
+                    "paper's recall and error-budget figures are measured on."
+                ),
                 "schema": {
                     "primaryKey": ["speech_id"],
                     "foreignKeys": [{
@@ -769,22 +776,6 @@ def _make_datapackage(version: str) -> dict:
                     ],
                 },
             },
-            # Written statements: same columns as speeches, different grain.
-            # Declared by cloning the speeches schema at build time (below) so
-            # the two cannot drift apart.
-            {
-                "name": "written_statements", "path": "written_statements.parquet",
-                "mediatype": "application/vnd.apache.parquet",
-                "description": (
-                    "One row per statement submitted to the record in writing "
-                    "(\"zu Protokoll gegeben\") and printed in the Anlagen. These "
-                    "are genuine contributions by named members who did not "
-                    "speak — they were never delivered in the chamber, which is "
-                    "why they are not in speeches.parquet. Same columns as "
-                    "speeches. Exists from the 1970s onward."
-                ),
-                "schema": {"primaryKey": ["speech_id"], "fields": []},
-            },
             # Reference table for the `land` field, published as CSV only — it is
             # 19 rows and is meant to be read by people as much as by code.
             # _mirror_csv_resources() leaves non-Parquet resources alone, so this
@@ -806,8 +797,9 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "land",       "type": "string",  "description": "Canonical Bundesland name, as used in speeches.land and sessions.presiding_land."},
                         {"name": "first_year", "type": "integer", "description": "First year this Land is OBSERVED in the corpus — not its constitutional founding date. The observed spans reproduce the territorial history unprompted, which is what makes the field self-validating."},
                         {"name": "last_year",  "type": "integer", "description": "Last year this Land is observed. 1952 for the three historical Länder; the final corpus year for the rest."},
-                        {"name": "n_speeches", "type": "integer", "description": "Speeches attributed to a delegate of this Land. Sums to the number of speeches carrying a land."},
-                        {"name": "n_sessions", "type": "integer", "description": "Distinct sessions in which a delegate of this Land spoke."},
+                        {"name": "n_speeches", "type": "integer", "description": "SPOKEN speeches attributed to a delegate of this Land. Counted on contribution_type = 'spoken' so the figure means the same thing across the whole period, since written statements only begin in the 1970s."},
+                        {"name": "n_written_statements", "type": "integer", "description": "Statements submitted in writing by a delegate of this Land. Zero before the 1970s. n_speeches + n_written_statements is the number of rows in speeches.parquet carrying this land."},
+                        {"name": "n_sessions", "type": "integer", "description": "Distinct sessions in which a delegate of this Land spoke or submitted a statement."},
                         {"name": "historic",   "type": "boolean", "description": "True for Baden, Württemberg-Baden and Württemberg-Hohenzollern, dissolved into Baden-Württemberg on 25 April 1952. They are kept under their own names rather than folded into the successor, which would rewrite the 1949-52 delegations."},
                     ],
                 },
@@ -955,7 +947,7 @@ def _make_readme(n_sessions, n_speeches, n_speakers, year_min, year_max,
 
         | Table | Rows | Description |
         |---|---|---|
-        | `speeches.parquet` / `.csv` | {n_speeches:,} | One row per speech: name, person, role, land, full text |
+        | `speeches.parquet` / `.csv` | {n_speeches:,} | One row per contribution: name, person, role, land, full text, and `contribution_type` (`spoken` / `written`) |
         | `sessions.parquet` / `.csv` | {n_sessions:,} | One row per plenary session |
         | `speakers.parquet` / `.csv` | {n_speakers:,} | One row per unique speaker name string, with aggregates |
 {person_file}        | `datapackage.json` | — | Frictionless Data schema (types, descriptions, FK constraints) |
@@ -1004,6 +996,12 @@ def _make_readme(n_sessions, n_speeches, n_speakers, year_min, year_max,
         import pandas as pd
         speeches = pd.read_parquet("speeches.parquet")
         sessions = pd.read_parquet("sessions.parquet")
+
+        # Spoken speeches only — what was actually said in the chamber.
+        # The rest are statements submitted to the record and printed in the
+        # Anlagen ("zu Protokoll gegeben"), never delivered aloud. Every figure
+        # in the accompanying paper is measured on this filter.
+        spoken = speeches[speeches["contribution_type"] == "spoken"]
 
         # Speeches by a given Bundesland
         nrw = speeches[speeches["land"] == "Nordrhein-Westfalen"]
@@ -1262,9 +1260,11 @@ def main() -> None:
         "name", "person_id", "person_name", "speaker_raw", "role", "land",
         "contribution_type", "text", "char_offset",
     ]].sort_values(["session_id", "sequence"]).reset_index(drop=True)
-    # NOTE: contribution_type is retained on both tables. It is constant within
-    # each ('spoken' / 'written'), which is redundant but makes a concatenation
-    # of the two self-describing — the common way users will want them.
+    # NOTE: `contribution_type` is what makes ONE table possible: the asterisk
+    # the printed index puts on an Anlage page reference becomes a value a user
+    # filters on, instead of a second table they have to know to join.
+    # Every published row carries it, so a row is self-describing wherever it
+    # ends up — in a subset, a join, or a CSV opened by hand.
 
     # 6. Integrity checks
     if not speeches_df["speech_id"].is_unique:
@@ -1305,33 +1305,41 @@ def main() -> None:
     # "﻿session_id" unless the caller passes encoding="utf-8-sig". A
     # published table should read cleanly in code by default; the Excel import
     # route is documented in the README instead.
-    # ⚠️ `speeches` MEANS SPOKEN. Written statements go to their own table and
-    # institutional papers are dropped entirely.
+    # ⚠️ ONE table of member contributions, with `contribution_type` marking how
+    # each one reached the record.
     #
     # A statement submitted to the record ("zu Protokoll gegeben") is a genuine
     # contribution by a named member who could not attend — it belongs in the
-    # dataset. It is NOT a speech: it was never delivered, which is precisely why
-    # the printed index marks it with an asterisk. Keeping both in one table
-    # called `speeches` meant 15 % of its rows contradicted its name, and a
-    # reader who counted rows got a different number from the one in the paper.
+    # dataset. It was never delivered aloud, which is precisely why the printed
+    # index marks it with an asterisk, and analyses of floor behaviour must
+    # exclude it. But that is a FILTER, not a separate table: splitting them
+    # forced every user to discover the second table and concatenate it back,
+    # and made `n_speeches` mean something different from "rows for this
+    # session". A user who wants the validated spoken series writes
+    # `speeches[speeches.contribution_type == "spoken"]`, which is the same
+    # condition this file used to apply on their behalf.
     #
     # The `document` rows — Umdruck, Drucksache, committee business — have no
     # personal author even in the source. They are neither speech nor anyone's
-    # contribution, so they are not published as either.
-    written_df = speeches_df[speeches_df["contribution_type"] == "written"].copy()
+    # contribution, so they are still dropped.
     n_dropped = int((speeches_df["contribution_type"] == "document").sum())
-    speeches_df = speeches_df[speeches_df["contribution_type"] == "spoken"].copy()
-    for _d in (speeches_df, written_df):
-        _d["sequence"] = _d.groupby("session_id").cumcount() + 1
-        _d["speech_id"] = [_make_speech_id(s, q) for s, q
-                           in zip(_d["session_id"], _d["sequence"])]
+    speeches_df = speeches_df[speeches_df["contribution_type"] != "document"].copy()
+    # Renumbered ONCE over the merged table, so `sequence` runs 1..n across the
+    # whole sitting and `speech_id` stays unique. The sort above is by the
+    # original sequence, which puts the Anlagen statements after the spoken
+    # turns — the order the protocol itself prints them in.
+    speeches_df["sequence"] = speeches_df.groupby("session_id").cumcount() + 1
+    speeches_df["speech_id"] = [_make_speech_id(s, q) for s, q
+                                in zip(speeches_df["session_id"], speeches_df["sequence"])]
     if verbose:
-        print(f"  speeches: {len(speeches_df):,} spoken | "
-              f"written_statements: {len(written_df):,} | "
+        _n_sp = int((speeches_df["contribution_type"] == "spoken").sum())
+        _n_wr = int((speeches_df["contribution_type"] == "written").sum())
+        print(f"  speeches: {len(speeches_df):,} contributions "
+              f"({_n_sp:,} spoken + {_n_wr:,} written) | "
               f"dropped {n_dropped:,} institutional documents", flush=True)
 
     tables = [(sessions_df, "sessions"), (speeches_df, "speeches"),
-              (written_df, "written_statements"), (speakers_df, "speakers")]
+              (speakers_df, "speakers")]
     if persons_df is not None:
         tables.append((persons_df, "persons"))
 
@@ -1352,11 +1360,18 @@ def main() -> None:
     # 1952, the Saarland acceding in 1957, the five new Länder in 1990-91), which
     # is what makes the field self-validating. Hard-coding the statutory dates
     # would destroy that property.
+    #
+    # ⚠️ n_speeches counts SPOKEN rows only, and that is deliberate now that both
+    # kinds share a table: written statements begin in the 1970s, so a combined
+    # count would not mean the same thing in 1950 as in 2020. The written total
+    # is carried alongside it rather than folded in.
+    _land_src = speeches_df[speeches_df["land"].notna()]
     laender_df = (
-        speeches_df[speeches_df["land"].notna()]
+        _land_src
         .groupby("land")
         .agg(first_year=("year", "min"), last_year=("year", "max"),
-             n_speeches=("speech_id", "size"),
+             n_speeches=("contribution_type", lambda s: int((s == "spoken").sum())),
+             n_written_statements=("contribution_type", lambda s: int((s == "written").sum())),
              n_sessions=("session_id", "nunique"))
         .reset_index()
         .sort_values(["first_year", "land"])
@@ -1367,12 +1382,6 @@ def main() -> None:
     _write(laender_df, "laender.csv", encoding="utf-8")
 
     dp = _make_datapackage(args.version)
-    # written_statements shares the speeches schema; clone it rather than
-    # maintaining a second copy that would drift.
-    _by = {r["name"]: r for r in dp["resources"]}
-    if "written_statements" in _by and "speeches" in _by:
-        _by["written_statements"]["schema"]["fields"] = list(
-            _by["speeches"]["schema"]["fields"])
     dp["resources"] = _mirror_csv_resources(dp["resources"])
     with open(output_dir / "datapackage.json", "w", encoding="utf-8") as fh:
         json.dump(dp, fh, indent=2, ensure_ascii=False)

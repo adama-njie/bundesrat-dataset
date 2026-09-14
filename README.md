@@ -12,10 +12,21 @@ are no *Wahlperioden* to slice on. Its members represent the 16 German
 | | |
 |---|---|
 | Sessions | 1,067 |
-| Speeches | 47,290 |
+| Attributed contributions | 53,362 |
+| — spoken in the chamber | 47,290 |
+| — submitted in writing | 6,072 |
 | Unique speaker name strings | 2,907 |
 | Resolved persons | 2,473 |
 | Years covered | 1949–2026 |
+
+A member who cannot attend may give a statement *zu Protokoll*: it is printed in
+the sitting's appendix and marked in the protocol's own index with an asterisked
+page reference, but it was never said aloud. Both kinds live in `speeches`,
+separated by `contribution_type`. Written statements only begin in the 1970s, so
+a time series must filter to `contribution_type == "spoken"` or it picks up a
+step change that reflects the practice starting rather than the chamber
+changing. Every recall and error figure quoted here is measured on the spoken
+subset.
 
 ## The dataset lives on Zenodo, not here
 
@@ -24,10 +35,11 @@ published as a citable dataset:
 
 > **DOI: [10.5281/zenodo.22086439](https://doi.org/10.5281/zenodo.22086439)**
 
-`speeches.csv` alone is 159 MB, past GitHub's 100 MB per-file limit, and a
+`speeches.csv` alone is 192 MB, past GitHub's 100 MB per-file limit, and a
 versioned archive with a DOI is the right home for data anyway. Each table
 ships in Parquet and CSV with identical contents: `speeches`, `sessions`,
-`speakers`, `persons`, plus a Frictionless `datapackage.json` schema.
+`speakers`, `persons`, plus `laender.csv` resolving the 19 values `land` can
+take and a Frictionless `datapackage.json` schema.
 
 Download it into `bundesrat_dataset_v1/` at the repository root and the
 analysis stages below will find it.

@@ -110,7 +110,7 @@ the method, not scratch output:
 | `name_variants.csv` | OCR variant → canonical surname, with counts and Land |
 | `person_overrides.csv` | Manual person assignments that override the automatic grouping |
 | `person_links.csv` | Name string → `person_id` mapping produced by stage 04 |
-| `person_review.csv` | Groupings flagged for human judgement, with the decision taken |
+| `person_review.csv` | Groupings flagged for human judgment, with the decision taken |
 | `name_variant_candidates.csv` | Ranked variant candidates from `br_c04`, before review |
 
 ## Running it

@@ -724,7 +724,7 @@ def _make_datapackage(version: str) -> dict:
                         {"name": "speaker_raw", "type": "string",  "description": "Raw attribution string as matched by br_02."},
                         {"name": "role",        "type": "string",  "description": "Parliamentary/official role: 'Präsident', 'Vizepräsident', 'Bundesminister der Finanzen', etc. Null for plain state representatives."},
                         {"name": "land",        "type": "string",  "description": "Bundesland the speaker represents — one of 19 values: the 16 current Länder plus Baden, Württemberg-Baden and Württemberg-Hohenzollern, which merged into Baden-Württemberg in 1952. See laender.csv. Null for the presiding officer and federal officials."},
-                        {"name": "contribution_type", "type": "string", "description": "'spoken' — delivered in the chamber. 'written' — a statement submitted to the record (\"zu Protokoll gegeben\") and printed in the Anlagen, never spoken; its author is named in the appendix header. 'document' — appendix material whose header names no author: anonymous statements on an agenda item, and papers circulated to the chamber. The distinction between 'written' and 'document' records WHETHER THE RECORD NAMES AN AUTHOR, not a judgement about content. Every 'spoken' and 'written' row carries a name; 'document' rows carry none by definition. Written statements are negligible before 1970 and become routine from the 1970s onward; filter on 'spoken' to reproduce the validated series."},
+                        {"name": "contribution_type", "type": "string", "description": "'spoken' — delivered in the chamber. 'written' — a statement submitted to the record (\"zu Protokoll gegeben\") and printed in the Anlagen, never spoken; its author is named in the appendix header. 'document' — appendix material whose header names no author: anonymous statements on an agenda item, and papers circulated to the chamber. The distinction between 'written' and 'document' records WHETHER THE RECORD NAMES AN AUTHOR, not a judgment about content. Every 'spoken' and 'written' row carries a name; 'document' rows carry none by definition. Written statements are negligible before 1970 and become routine from the 1970s onward; filter on 'spoken' to reproduce the validated series."},
                         {"name": "text",        "type": "string",  "description": "Full text (German). OCR sessions (1949–1999) may contain minor character errors."},
                         {"name": "char_offset", "type": "integer", "description": "Character offset of the speech start in the cleaned session text."},
                     ],
@@ -908,7 +908,7 @@ def _make_readme(n_sessions, n_speeches, n_speakers, year_min, year_max,
         `speeches.person_id` resolves name strings into people, so that
         `Dr. Voscherau` and `Dr. Henning Voscherau` are one man rather than two
         rows. {person_cov:.1f}% of speeches carry a `person_id`; the remainder are
-        name strings whose assignment needs human judgement and are listed in
+        name strings whose assignment needs human judgment and are listed in
         `docs/person_review.csv` in the code repository.
 
         Grouping uses Bundesland, first name, career era and office, and is
@@ -1153,7 +1153,7 @@ def main() -> None:
     # Speaker identity is at the NAME-STRING level above; this resolves those
     # strings into people. The mapping is a reviewed artefact on disk rather
     # than code, exactly like docs/name_variants.csv: deciding that two strings
-    # are one person is a research judgement. Delete the file and the dataset
+    # are one person is a research judgment. Delete the file and the dataset
     # falls back to name-string identity with person_id left null.
     persons_df = None
     links_path = Path(args.person_links) if args.person_links else (
@@ -1311,7 +1311,7 @@ def main() -> None:
     # A statement submitted to the record ("zu Protokoll gegeben") is a genuine
     # contribution by a named member who could not attend — it belongs in the
     # dataset. It was never delivered aloud, which is precisely why the printed
-    # index marks it with an asterisk, and analyses of floor behaviour must
+    # index marks it with an asterisk, and analyses of floor behavior must
     # exclude it. But that is a FILTER, not a separate table: splitting them
     # forced every user to discover the second table and concatenate it back,
     # and made `n_speeches` mean something different from "rows for this

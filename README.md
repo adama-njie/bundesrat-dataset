@@ -156,7 +156,7 @@ dataset.
 
 If you use the corpus or this pipeline, please cite the dataset:
 
-> Njie, A., Laperne, L., Torkayesh, A., & Venghaus, S. (2026). *The Bundesrat
+> Njie, A., Laperne, L., Agarwal, L., Torkayesh, A., & Venghaus, S. (2026). *The Bundesrat
 > Corpus: speaker-attributed proceedings of the German Federal
 > Council, 1949–2026* (v1) [Data set]. Zenodo.
 > https://doi.org/10.5281/zenodo.22086439
@@ -170,6 +170,6 @@ are official documents of the Bundesrat.
 
 ## Authors
 
-Adama Njie, Leandro Laperne, Ali Torkayesh and Sandra Venghaus — Chair of
-Economics of Sustainability, School of Business and Economics, RWTH Aachen
-University.
+Adama Njie, Leandro Laperne, Laksh Agarwal, Ali Torkayesh and Sandra
+Venghaus — Chair of Economics of Sustainability, School of Business and
+Economics, RWTH Aachen University.

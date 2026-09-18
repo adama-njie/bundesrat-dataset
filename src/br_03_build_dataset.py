@@ -846,9 +846,14 @@ _DOI = "10.5281/zenodo.22086439"
 # ⚠️ An author with no ORCID omits the KEY. CFF has no null/empty form for it —
 # `orcid: ""` fails schema validation, and Zenodo rejects a malformed identifier
 # rather than ignoring it.
+#
+# ⚠️ ORDER IS THE CREDIT ORDER and is not alphabetical. It must match the
+# paper's author list exactly, or the dataset and the article that describes it
+# disagree about who did what.
 _AUTHORS = [
     ("Njie",       "Adama",   "0009-0008-2646-8791"),
     ("Laperne",    "Leandro", None),
+    ("Agarwal",    "Laksh",   None),
     ("Torkayesh",  "Ali",     "0000-0002-1012-4213"),
     ("Venghaus",   "Sandra",  "0000-0002-9352-6604"),
 ]

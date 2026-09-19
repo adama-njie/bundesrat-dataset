@@ -657,8 +657,10 @@ def _mirror_csv_resources(resources: list) -> list:
 
 def _make_datapackage(version: str) -> dict:
     return {
+        # ⚠️ `name` is the Frictionless slug — an identifier, not a title. It is
+        # stable across renames on purpose; do not "fix" it to match _TITLE.
         "name":    "bundesrat-plenarprotokolle",
-        "title":   "Bundesrat Plenarprotokolle Dataset",
+        "title":   _TITLE,
         "version": version,
         "description": (
             "Structured, speaker-attributed speech corpus from German Bundesrat "
@@ -808,7 +810,20 @@ def _make_datapackage(version: str) -> dict:
     }
 
 
-# Affiliation is identical for all four authors, so it is written once here rather
+# The dataset title, in ONE place.
+#
+# ⚠️ It must be byte-identical to the data paper's title. Zenodo, DataCite and
+# Google Scholar link a dataset to the article describing it by matching the
+# title string, so a single differing capital breaks the link. It is written
+# into three files at build time — CITATION.cff, datapackage.json and the
+# dataset README's H1 — which is why it lives here rather than three times.
+#
+# ⚠️ The Zenodo RECORD's own title is separate metadata entered in the web form.
+# Zenodo does not read CITATION.cff from an uploaded file. Update it there too.
+_TITLE = ("The Bundesrat corpus: A dataset of political discourse in the "
+          "German Federal Council")
+
+# Affiliation is identical for all authors, so it is written once here rather
 # than repeated in each entry.
 _AFFILIATION = ("Economics of Sustainability, School of Business and Economics, "
                 "RWTH Aachen University, 52072, Aachen, Germany")
@@ -877,7 +892,7 @@ def _make_citation_cff(version: str, year_min: int, year_max: int,
         cff-version: 1.2.0
         message: "If you use this dataset, please cite it using the metadata below."
         type: dataset
-        title: "The Bundesrat Corpus: speaker and Bundesland-attributed proceedings of the German Federal Council, {year_min}–{year_max}"
+        title: "{_TITLE}"
         version: "{version}"
         date-released: "{released or date.today().isoformat()}"
         abstract: >
@@ -929,7 +944,7 @@ def _make_readme(n_sessions, n_speeches, n_speakers, year_min, year_max,
         f"        | {eng} | {cnt:,} |" for eng, cnt in engine_counts.items()
     )
     return textwrap.dedent(f"""\
-        # Bundesrat Plenarprotokolle Dataset {version}
+        # {_TITLE} ({version})
 
         Structured, speaker-attributed speech corpus from German **Bundesrat**
         (Federal Council) plenary sessions, {year_min}–{year_max}.

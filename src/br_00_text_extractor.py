@@ -1,11 +1,4 @@
 
-# ============================================================
-# USER SETTINGS  (override via --input-dir / --output-dir)
-# ============================================================
-_DEFAULT_INPUT  = r"C:\Users\adama\Sciebo\Adama-Ali\Germany & Politics\Bundesrat\PDFs"
-_DEFAULT_OUTPUT = r"C:\Users\adama\Sciebo\Adama-Ali\Germany & Politics\Bundesrat\preprocessed"
-# ============================================================
-
 import argparse
 import csv
 import hashlib
@@ -15,6 +8,21 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+
+# ============================================================
+# USER SETTINGS  (override via --input-dir / --output-dir)
+#
+# Paths resolve in three steps: the command-line flag wins, then the
+# environment variable, then a folder beside this repository. Keeping the
+# fallback relative is what lets someone clone the repo and run the pipeline
+# without editing source — an absolute path here is a path on one machine.
+# ============================================================
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_DEFAULT_INPUT = os.environ.get(
+    "BUNDESRAT_PDF_DIR", str(_PROJECT_ROOT / "data" / "raw"))
+_DEFAULT_OUTPUT = os.environ.get(
+    "BUNDESRAT_PREPROCESSED_DIR", str(_PROJECT_ROOT / "preprocessed"))
+# ============================================================
 
 # ---------------------------------------------------------------------------
 # Page-break separator written into extracted .txt files.

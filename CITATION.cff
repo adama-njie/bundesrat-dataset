@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite the dataset it produces."
+type: software
+title: "The Bundesrat corpus: extraction and attribution pipeline"
+abstract: >
+  Reproducible pipeline that converts the German Bundesrat (Federal Council)
+  Plenarprotokolle into a structured, speaker-attributed corpus: PDF text
+  extraction with OCR for the 1949-1999 scans, text cleaning, speaker
+  attribution, cross-session person resolution, quality auditing, and
+  packaging as a documented dataset.
+license: MIT
+repository-code: "https://github.com/adama-njie/bundesrat-dataset"
+keywords:
+  - Bundesrat
+  - German federalism
+  - parliamentary debates
+  - natural language processing
+  - political science
+  - corpus linguistics
+  - OCR
+authors:
+  - family-names: "Njie"
+    given-names: "Adama"
+    affiliation: "Economics of Sustainability, School of Business and Economics, RWTH Aachen University, 52072, Aachen, Germany"
+    orcid: "https://orcid.org/0009-0008-2646-8791"
+  - family-names: "Laperne"
+    given-names: "Leandro"
+    affiliation: "Economics of Sustainability, School of Business and Economics, RWTH Aachen University, 52072, Aachen, Germany"
+  - family-names: "Agarwal"
+    given-names: "Laksh"
+    affiliation: "Economics of Sustainability, School of Business and Economics, RWTH Aachen University, 52072, Aachen, Germany"
+  - family-names: "Torkayesh"
+    given-names: "Ali"
+    affiliation: "Economics of Sustainability, School of Business and Economics, RWTH Aachen University, 52072, Aachen, Germany"
+    orcid: "https://orcid.org/0000-0002-1012-4213"
+  - family-names: "Venghaus"
+    given-names: "Sandra"
+    affiliation: "Economics of Sustainability, School of Business and Economics, RWTH Aachen University, 52072, Aachen, Germany"
+    orcid: "https://orcid.org/0000-0002-9352-6604"
+
+# ⚠️ The DATASET is the citable research output, not this code. GitHub's "Cite
+# this repository" button reads `preferred-citation` and offers it instead of
+# the software entry above, which is what we want a user to copy.
+preferred-citation:
+  type: dataset
+  title: "The Bundesrat corpus: A dataset of political discourse in the German Federal Council"
+  year: 2026
+  doi: "10.5281/zenodo.22086439"
+  license: CC-BY-4.0
+  authors:
+    - family-names: "Njie"
+      given-names: "Adama"
+      orcid: "https://orcid.org/0009-0008-2646-8791"
+    - family-names: "Laperne"
+      given-names: "Leandro"
+    - family-names: "Agarwal"
+      given-names: "Laksh"
+    - family-names: "Torkayesh"
+      given-names: "Ali"
+      orcid: "https://orcid.org/0000-0002-1012-4213"
+    - family-names: "Venghaus"
+      given-names: "Sandra"
+      orcid: "https://orcid.org/0000-0002-9352-6604"

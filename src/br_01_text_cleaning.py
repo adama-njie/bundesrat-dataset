@@ -1,14 +1,20 @@
 
-# ============================================================
-# USER SETTINGS
-# ============================================================
-_DEFAULT_PREPROCESSED = r"C:\Users\adama\Sciebo\Adama-Ali\Germany & Politics\Bundesrat\preprocessed"
-# ============================================================
-
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
+
+# ============================================================
+# USER SETTINGS  (override via --preprocessed-dir)
+#
+# Command-line flag wins, then the environment variable, then a folder beside
+# this repository. See br_00 for why the fallback must stay relative.
+# ============================================================
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_DEFAULT_PREPROCESSED = os.environ.get(
+    "BUNDESRAT_PREPROCESSED_DIR", str(_PROJECT_ROOT / "preprocessed"))
+# ============================================================
 
 # ---------------------------------------------------------------------------
 # Constants

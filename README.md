@@ -146,8 +146,15 @@ python src/br_05_quality_audit.py
 python src/br_06_corpus_statistics.py
 ```
 
-Input and output directories default to local paths set at the top of each
-stage-00–02 script; override them with `--input-dir` and `--output-dir`.
+Input and output directories resolve in three steps: the command-line flag
+(`--input-dir`, `--output-dir`, `--preprocessed-dir`) wins, then an environment
+variable, then a folder beside the repository. Set the variables once and the
+flags become optional:
+
+| Variable | Default | Used by |
+|---|---|---|
+| `BUNDESRAT_PDF_DIR` | `./data/raw` | stage 00 |
+| `BUNDESRAT_PREPROCESSED_DIR` | `./preprocessed` | stages 00–02 |
 Derived outputs — audit reports, tables, figures — are written to `outputs/`
 and `paper/` and are not tracked here, since they are reproducible from the
 dataset.
@@ -165,8 +172,15 @@ Machine-readable metadata is in `CITATION.cff` in the Zenodo archive.
 
 ## License
 
-The dataset is released under **CC BY 4.0**. The underlying Plenarprotokolle
-are official documents of the Bundesrat.
+Two licences, because the code and the data are separate outputs:
+
+- **The pipeline in this repository** is released under the **MIT License**
+  (see [LICENSE](LICENSE)).
+- **The dataset it produces** is released under **CC BY 4.0** and distributed
+  via Zenodo, not from here.
+
+The underlying Plenarprotokolle are official documents of the Bundesrat
+(*amtliche Werke*) and are not subject to copyright under §5 UrhG.
 
 ## Authors
 

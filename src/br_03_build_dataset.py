@@ -1058,7 +1058,9 @@ def _make_readme(n_sessions, n_speeches, n_speakers, year_min, year_max,
 
 def main() -> None:
     ap = argparse.ArgumentParser(
-        description="Package the Bundesrat corpus into a 3-table dataset.",
+        description="Package the Bundesrat corpus into a documented dataset: "
+                    "sessions, speeches, speakers, persons, plus a Länder "
+                    "reference table.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     ap.add_argument("--input-dir", default=str(_DEFAULT_INPUT), metavar="PATH",

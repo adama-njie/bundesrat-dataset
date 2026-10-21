@@ -1,4 +1,4 @@
-# The Bundesrat Corpus: A dataset of political discourse in the German Federal Council — extraction and attribution pipeline
+# The Bundesrat corpus: A dataset of political discourse in the German Federal Council — extraction and attribution pipeline
 
 Code that turns the German **Bundesrat** (Federal Council) *Plenarprotokolle* 
 plenary transcripts from session 1 in 1949 till July 2026 into a structured,

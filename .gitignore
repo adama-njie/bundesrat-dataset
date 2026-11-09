@@ -27,8 +27,10 @@
 !.github/
 
 # Packaged dataset (br_03 output) — published on Zenodo, not in git.
-# speeches.csv alone is 159 MB, above GitHub's 100 MB per-file hard limit.
+# speeches.csv alone is 192 MB, above GitHub's 100 MB per-file hard limit.
+# Both the frozen release and the rolling one built by br_update.py.
 bundesrat_dataset_v1/
+bundesrat_dataset_current/
 
 # HPC pipeline intermediates: per-session .txt / _speakers.csv files
 # from stages 00-02.

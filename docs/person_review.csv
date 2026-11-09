@@ -57,24 +57,24 @@ hahn-1971,Otto Hahn,era-split,11,1971,1976,Baden-Württemberg,"Prof. D. Dr. Hahn
 pfeifer-1979,Parl. Staatssekretär Pfeifer,ambiguous-partial,11,1979,1991,,"Parl. Staatssekretär Pfeifer (n=8, 1983-1988, —) | Pfeifer (n=3, 1979-1991, —)",Anton Pfeifer:firstname,ok
 bull-1988,Dr. Hans Peter Bull,era-split,11,1988,1992,Schleswig-Holstein,"Prof. Dr. Bull (n=9, 1988-1990, Schleswig-Holstein) | Dr. Hans Peter Bull (n=1, 1992-1992, Schleswig-Holstein) | Prof. Dr. Hans Peter Bull (n=1, 1992-1992, Schleswig-Holstein)",Büll:era,ok
 seiters-1989,Rudolf Seiters,role-change,10,1989,1993,,"Seiters (n=6, 1989-1990, —) | Rudolf Seiters (n=4, 1992-1993, —)",,ok
-lauterbach-2022,Prof. Dr. Karl Lauterbach,ambiguous-partial,9,2022,2024,,"Prof. Dr. Karl Lauterbach (n=7, 2022-2024, —) | Dr. Lauterbach (n=2, 2024-2024, —)",Bundesminister Prof. Dr. Karl Lauterbach:firstname,ok
+ozdemir-2022,Cem Özdemir,ambiguous-partial,10,2022,2026,Baden-Württemberg,"Cem Özdemir (n=9, 2022-2026, Baden-Württemberg) | Özdemir (n=1, 2023-2023, —)",Mahmut Özdemir:firstname,ok
 brunner-1991,Prof. Dr. Dr. Gerd Brunner,possible-land-change,9,1991,1991,Sachsen-Anhalt,"Prof. Dr. Dr. Brunner (n=8, 1991-1991, Sachsen-Anhalt) | Prof. Dr. Dr. Gerd Brunner (n=1, 1991-1991, Sachsen-Anhalt)",Helmut Brunner:land,ok
+lauterbach-2022,Prof. Dr. Karl Lauterbach,ambiguous-partial,9,2022,2024,,"Prof. Dr. Karl Lauterbach (n=7, 2022-2024, —) | Dr. Lauterbach (n=2, 2024-2024, —)",Bundesminister Prof. Dr. Karl Lauterbach:firstname,ok
 heil-2018,Hubertus Heil,ambiguous-partial,9,2018,2024,,"Hubertus Heil (n=8, 2018-2024, —) | Heil (n=1, 2022-2022, —)",Bundesminister Hubertus Heil:firstname,ok
 schaumann-1988,Dr. Fritz Schaumann,role-change,8,1988,1996,,"Dr. Schaumann (n=7, 1988-1990, —) | Dr. Fritz Schaumann (n=1, 1996-1996, —)",,ok
-tegtmeier-1988,Dr. Werner Tegtmeier,role-change,8,1988,1997,,"Dr. Tegtmeier (n=5, 1988-1991, —) | Dr. Werner Tegtmeier (n=3, 1995-1997, —)",,ok
 knittel-1987,Dr. Wilhelm Knittel,role-change,8,1987,1993,,"Dr. Knittel (n=6, 1987-1991, —) | Dr. Wilhelm Knittel (n=2, 1992-1993, —)",,ok
+tegtmeier-1988,Dr. Werner Tegtmeier,role-change,8,1988,1997,,"Dr. Tegtmeier (n=5, 1988-1991, —) | Dr. Werner Tegtmeier (n=3, 1995-1997, —)",,ok
 scheel-1972,Walter Scheel,era-split,7,1972,1979,,"Scheel (n=5, 1972-1974, —) | Walter Scheel (n=2, 1974-1979, —)",Sebastian Scheel:era,ok
-kraus-1993,Parl. Staatssekretär Rudolf Kraus,era-split,7,1993,1997,,"Parl. Staatssekretär Rudolf Kraus (n=6, 1993-1997, —) | Parl, Staatssekretär Rudolf Kraus (n=1, 1997-1997, —)",Dr. Kraus:era | Rudoif Kraus:firstname | Rudolf Kraus:firstname,ok
-lintner-1991,Eduard Lintner,ambiguous-partial,7,1991,1996,,"Eduard Lintner (n=6, 1991-1996, —) | Lintner (n=1, 1991-1991, —)",Parl. Staatssekretär Eduard Lintner:firstname | Parl Staatssekretär Eduard Lintner:firstname,ok
+krings-2014,Prof. Dr. Günter Krings,role-change,7,2014,2021,,"Prof. Dr. Günter Krings (n=5, 2018-2021, —) | Dr. Günter Krings (n=2, 2014-2014, —)",Parl. Staatssekretär Prof. Dr. Günter Krings:firstname,ok
 schulte-1986,Parl. Staatssekretär Dr. Schulte,ambiguous-partial,7,1986,1989,,"Parl. Staatssekretär Dr. Schulte (n=6, 1986-1989, —) | Dr. Schulte (n=1, 1986-1986, —)","Dr. Dieter Schulte:firstname | Parl, Staatssekretär Dr. Dieter Schulte:firstname | Parl. Staatssekretär Dr. Dieter Schulte:firstname",ok
 scheuer-2010,Dr. Andreas Scheuer,role-change,7,2010,2021,,"Dr. Andreas Scheuer (n=4, 2010-2013, —) | Andreas Scheuer (n=3, 2019-2021, —)",Parl. Staatssekretär Dr. Andreas Scheuer:firstname,ok
-krings-2014,Prof. Dr. Günter Krings,role-change,7,2014,2021,,"Prof. Dr. Günter Krings (n=5, 2018-2021, —) | Dr. Günter Krings (n=2, 2014-2014, —)",Parl. Staatssekretär Prof. Dr. Günter Krings:firstname,ok
+lintner-1991,Eduard Lintner,ambiguous-partial,7,1991,1996,,"Eduard Lintner (n=6, 1991-1996, —) | Lintner (n=1, 1991-1991, —)",Parl. Staatssekretär Eduard Lintner:firstname | Parl Staatssekretär Eduard Lintner:firstname,ok
+kraus-1993,Parl. Staatssekretär Rudolf Kraus,era-split,7,1993,1997,,"Parl. Staatssekretär Rudolf Kraus (n=6, 1993-1997, —) | Parl, Staatssekretär Rudolf Kraus (n=1, 1997-1997, —)",Dr. Kraus:era | Rudoif Kraus:firstname | Rudolf Kraus:firstname,ok
+staatssekretar-1991,Parl. Staatssekretär,era-split,6,1991,1995,,"Parl. Staatssekretär (n=5, 1991-1994, —) | Parl, Staatssekretär (n=1, 1995-1995, —)",Staatssekretär:era,ok
 karwatzki-1983,Parl. Staatssekretär Frau Karwatzki,ambiguous-partial,6,1983,1986,,"Parl. Staatssekretär Frau Karwatzki (n=4, 1983-1985, —) | Karwatzki (n=2, 1985-1986, —)",Parl. Staatssekretär Karwatzki:firstname | Irmgard Karwatzki:firstname | Parl. Staatssekretärin Irmgard Karwatzki:firstname | Parl. Staatssekretärin Irngard Karwatzki:firstname,ok
 lange-1981,Lange,era-split,6,1981,1988,Hamburg,"Lange (n=5, 1981-1988, Hamburg) | Dr. Lange (n=1, 1986-1986, Hamburg)",Parl. Staatssekretär Christian Lange:era | Rudolf Lange:era,ok
-staatssekretar-1991,Parl. Staatssekretär,era-split,6,1991,1995,,"Parl. Staatssekretär (n=5, 1991-1994, —) | Parl, Staatssekretär (n=1, 1995-1995, —)",Staatssekretär:era,ok
 mangerkoenig-1967,Prof. Dr. von Manger-Koenig,role-change,5,1967,1972,,"Prof. Dr. von Manger-Koenig (n=4, 1971-1972, —) | Dr. von Manger-Koenig (n=1, 1967-1967, —)",,ok
 herzog-1979,Prof. Dr. Herzog,ambiguous-partial;era-split,5,1979,1988,Baden-Württemberg,"Prof. Dr. Herzog (n=4, 1979-1982, Baden-Württemberg) | Herzog (n=1, 1988-1988, Baden-Württemberg)",Dr. Roman Herzog:era,ok
-ozdemir-2022,Cem Özdemir,ambiguous-partial,5,2022,2026,Baden-Württemberg,"Cem Özdemir (n=4, 2022-2026, Baden-Württemberg) | Özdemir (n=1, 2023-2023, —)",Mahmut Özdemir:firstname,ok
 beckmann-1990,Klaus Beckmann,ambiguous-partial,4,1990,1992,,"Klaus Beckmann (n=3, 1991-1992, —) | Beckmann (n=1, 1990-1990, —)",Parl. Staatssekretär Beckmann:firstname | Parl. Staatssekretär Klaus Beckmann:firstname,ok
 strasser-2023,Benjamin Strasser,ambiguous-partial,4,2023,2024,,"Benjamin Strasser (n=3, 2023-2024, —) | Strasser (n=1, 2023-2023, —)",Parl. Staatssekretär Benjamin Strasser:firstname,ok
 seidl-1955,EBundestagsabgeordneter Seidl,role-change,3,1955,1960,,"Seidl (n=2, 1955-1955, —) | EBundestagsabgeordneter Seidl (n=1, 1960-1960, —)",,ok

@@ -49,8 +49,12 @@ $script = Join-Path $ProjectRoot "src\br_update.py"
 $pyArgs = @("`"$script`"")
 if ($DryRun) { $pyArgs += "--dry-run" }
 
-# ⚠️ PowerShell 5.1 writes *>> redirection as UTF-16. Mixed with Python's UTF-8
-# output that produces "S t a g e  1" in the log. Append through cmd instead.
+# ⚠️ TWO separate encoding traps, and avoiding one exposes the other.
+# 1. PowerShell 5.1 writes *>> redirection as UTF-16. Mixed with Python's UTF-8
+#    output that produces "S t a g e  1" in the log. Append through cmd instead.
+# 2. Python then falls back to the console codepage (cp1252) when its stdout is
+#    a redirected handle, so em dashes and arrows arrive as "?". Force UTF-8.
+$env:PYTHONIOENCODING = "utf-8"
 $cmdLine = "`"$Python`" $($pyArgs -join ' ') >> `"$LogFile`" 2>&1"
 Push-Location $ProjectRoot
 try {
